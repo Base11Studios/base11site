@@ -5,7 +5,7 @@ categories:
   - games
   - ios
   - android
-author_staff_member: Dan
+author_staff_member: dan
 show_comments: true
 ---
 
