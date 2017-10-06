@@ -2,7 +2,7 @@
 name: Mort's Minions Side Scroller
 subtitle: Adventure RPG with a Retro Vibe for iOS
 external_url: http://www.mortsminions.com/
-image_path: /images/clients/testyourskill.png
+image_path: /images/clients/mortsminions.png
 ---
 
 Jump into the exciting world of Mort's Minions by helping the minions in this lovely combination of side scroller & adventure RPG! Jump, dodge and slash like never before. It's very simple to play with tons of levels and over 40 different minions to encounter.
