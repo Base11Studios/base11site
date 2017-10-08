@@ -5,8 +5,8 @@ external_url:
 image_path: /images/clients/slankys.jpg
 ---
 
-[![iOS Download](/images/app-store-badge.svg)](https://itunes.apple.com/us/app/slankys-big-climb-endless-run/id1280790074?mt=8)
-[![Android Download](/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.base11studios.infiniteclimb&hl=en)
+[![iOS Download]({{ site.baseurl }}/images/app-store-badge.svg)](https://itunes.apple.com/us/app/slankys-big-climb-endless-run/id1280790074?mt=8)
+[![Android Download]({{ site.baseurl }}/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.base11studios.infiniteclimb&hl=en)
 {: class="app-store-badge"}
 
 UNICORNS, CATS, and PUFFINS, OH MY! Help Slanky reach infinity in this wacky endless runner. Test your skills and get tons of upgrades! Tap, tap, tap some more.
@@ -21,11 +21,11 @@ UNICORNS, CATS, and PUFFINS, OH MY! Help Slanky reach infinity in this wacky end
 
 ## Screenshots
 
-![Climb as High as You Can](/images/screens/slankys/climb.png)
-![Rocket Cats](/images/screens/slankys/rockets.png)
-![Infinite Upgrades](/images/screens/slankys/upgrades.png)
-![Puffins](/images/screens/slankys/puffins.png)
-![Magical Fairies](/images/screens/slankys/fairies.png)
+![Climb as High as You Can]({{ site.baseurl }}/images/screens/slankys/climb.png)
+![Rocket Cats]({{ site.baseurl }}/images/screens/slankys/rockets.png)
+![Infinite Upgrades]({{ site.baseurl }}/images/screens/slankys/upgrades.png)
+![Puffins]({{ site.baseurl }}/images/screens/slankys/puffins.png)
+![Magical Fairies]({{ site.baseurl }}/images/screens/slankys/fairies.png)
 {: class="screenshots"}
 
 ## Game Time

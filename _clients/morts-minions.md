@@ -5,7 +5,7 @@ external_url: http://www.mortsminions.com/
 image_path: /images/clients/mortsminions.png
 ---
 
-[![iOS Download](/images/app-store-badge.svg)](https://itunes.apple.com/us/app/morts-minions-side-scroller-adventure-rpg/id1082229199?mt=8)
+[![iOS Download]({{ site.baseurl }}/images/app-store-badge.svg)](https://itunes.apple.com/us/app/morts-minions-side-scroller-adventure-rpg/id1082229199?mt=8)
 {: class="app-store-badge"}
 
 Jump into the exciting world of Mort's Minions by helping the minions in this lovely combination of side scroller & adventure RPG! Jump, dodge and slash like never before. It's very simple to play with tons of levels and over 40 different minions to encounter.
@@ -16,12 +16,12 @@ In Mort's Minions, you are a hero of your people, trying to discover why the min
 
 ## Screenshots
 
-![Find Your Style](/images/screens/morts/findyourstyle.png)
-![Test Your Skill](/images/screens/morts/testyourskill.png)
-![Track on Game Center](/images/screens/morts/trackongamecenter.png)
-![Train Your Hero](/images/screens/morts/trainyourhero.png)
-![Travel Across Worlds](/images/screens/morts/travelacrossworlds.png)
-![Download Now](/images/screens/morts/homescreen.png)
+![Find Your Style]({{ site.baseurl }}/images/screens/morts/findyourstyle.png)
+![Test Your Skill]({{ site.baseurl }}/images/screens/morts/testyourskill.png)
+![Track on Game Center]({{ site.baseurl }}/images/screens/morts/trackongamecenter.png)
+![Train Your Hero]({{ site.baseurl }}/images/screens/morts/trainyourhero.png)
+![Travel Across Worlds]({{ site.baseurl }}/images/screens/morts/travelacrossworlds.png)
+![Download Now]({{ site.baseurl }}/images/screens/morts/homescreen.png)
 {: class="screenshots-landscape"}
 
 ## 80 Levels
