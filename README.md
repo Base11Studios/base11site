@@ -26,6 +26,10 @@ P.S. if you've never installed jekyll or bundler:
 $ gem install jekyll bundler
 ```
 
+### Colors
+
+Use selected color palette at [Coolors](https://coolors.co/2a2d34-009ddc-f26430-6761a8-009b72).
+
 ### Posts
 
 * Add, update or remove a post in the *Posts* collection.
