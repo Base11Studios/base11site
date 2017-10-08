@@ -82,6 +82,7 @@ section {
 
 		h2, p {
 			max-width: 90%;
+			text-transform: capitalize;
 		}
 
 		h2 {
@@ -243,5 +244,33 @@ section {
 	&,
 	p {
 		color: #fefefe;
+	}
+}
+
+.app-store-badge {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	padding-top: 24px;
+	
+	a {
+		margin-right: 20px;
+	}
+	
+	img {
+		height: 55px;
+	}
+}
+
+.screenshots {
+	display: flex;
+    align-content: space-around;
+    flex-direction: row;
+
+	img {
+		flex-grow: 1;
+		width: 15%;
+		height: 15%;
+		margin: 10px;
 	}
 }

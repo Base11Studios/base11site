@@ -5,6 +5,9 @@ external_url: https://calicalo.base11studios.com/
 image_path: /images/clients/calicalo.jpg
 ---
 
+[![iOS Download](/images/app-store-badge.svg)](https://itunes.apple.com/us/app/calicalo-watch-your-calories/id1205082048?mt=8)
+{: class="app-store-badge"}
+
 Monitor your daily and weekly calorie intake and output with this iPhone and Apple Watch app! Use the calorie progress meter on the watch to see how you're tracking to meet your daily calorie goals. Use any application/source to add data to Apple HealthKit and view your calorie status on both the Apple Watch and the iPhone companion app.
 
 ## Features
@@ -16,6 +19,15 @@ Monitor your daily and weekly calorie intake and output with this iPhone and App
 * Weekly Net Graphing: Get a view of your weekly progress with our new 7 Day Net Calories graph.
 * Track Your Weekly Trends: View your 7 day history, averages, and compare calories consumed versus burned
 * Set a daily target to make sure you're hitting your daily surplus or deficit
+
+## Screenshots
+
+![Monitor Progress](/images/screens/calicalo/monitor_progress.png)
+![Track Trends](/images/screens/calicalo/track_trends.png)
+![Reach Goals](/images/screens/calicalo/reach_goals.png)
+![Change Target](/images/screens/calicalo/change_target.png)
+![Supports Joules](/images/screens/calicalo/supports_joules.png)
+{: class="screenshots"}
 
 ## FAQs
 
