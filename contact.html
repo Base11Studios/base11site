@@ -9,35 +9,6 @@ map:
   zoom: 13
 ---
 
-<section class="diagonal">
-	<div class="container">
-		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-			<input type="hidden" name="_to" value="support@example.com" />
-			<input type="text" name="_gotcha" style="display: none;" />
-
-			<div class="halves">
-				<div>
-					<label for="name">First Name</label>
-					<input type="text" name="first-name" id="first-name" placeholder="John" />
-				</div>
-
-				<div>
-					<label for="name">Last Name</label>
-					<input type="text" name="last-name" id="last-name" placeholder="Doe" />
-				</div>
-			</div>
-
-			<label for="email">Email Address</label>
-			<input type="email" name="email" id="email" placeholder="john@example.com" required />
-
-			<label for="message">Message</label>
-			<textarea name="message" id="message" placeholder="Hi There..."></textarea>
-
-			<input type="submit" value="Send Message" />
-		</form>
-	</div>
-</section>
-
 <section class="diagonal map">
 	<div id="gmap_canvas"></div>
 </section>
