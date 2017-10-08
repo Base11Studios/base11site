@@ -14,6 +14,16 @@ Jump into the exciting world of Mort's Minions by helping the minions in this lo
 
 In Mort's Minions, you are a hero of your people, trying to discover why the minions are attacking your people. Jump, dodge, slash, and cast your way to victory by defeating minions and uncovering clues to their mysterious behavior. Do you have the skills to master the challenge?
 
+## Screenshots
+
+![Find Your Style](/images/screens/morts/findyourstyle.png)
+![Test Your Skill](/images/screens/morts/testyourskill.png)
+![Track on Game Center](/images/screens/morts/trackongamecenter.png)
+![Train Your Hero](/images/screens/morts/trainyourhero.png)
+![Travel Across Worlds](/images/screens/morts/travelacrossworlds.png)
+![Download Now](/images/screens/morts/homescreen.png)
+{: class="screenshots-landscape"}
+
 ## 80 Levels
 We created something unique - there are 5 different worlds to tackle, each with 16 levels! 
 * Terra (earth)
@@ -21,6 +31,7 @@ We created something unique - there are 5 different worlds to tackle, each with 
 * Ignis (fire)
 * Astra (air)
 * Tempus (space)
+
 Different artwork and minions for every world! Perfect for minion fans and those that love simple side scrollers.
 
 ## 4 Unique Characters
@@ -29,6 +40,7 @@ Each character has different skills! Play as:
 * May the Archer 
 * Leonard the Monk
 * Gary the Mage
+
 Find your favorite play style with 6 skills per character.
 
 ## Engaging Skill System

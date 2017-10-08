@@ -271,9 +271,24 @@ section {
 		flex-grow: 1;
 		width: 15%;
 		height: 15%;
-		margin: 10px;
+		margin: 1%;
 		border-color: #ddd;
-		border-width: 5px;
+		border-style: solid;
+	}
+}
+
+.screenshots-landscape {
+	display: flex;
+    align-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	img {
+		flex-grow: 1;
+		width: 30%;
+		height: 30%;
+		margin: 2%;
+		border-color: #ddd;
 		border-style: solid;
 	}
 }

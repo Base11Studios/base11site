@@ -19,3 +19,5 @@ Live scoring application for golf outings, complete with outing management, live
 ### Technologies Used
 
 * XCode, SWIFT
+* Hosted on AWS
+* Java
