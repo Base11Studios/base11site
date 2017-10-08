@@ -19,10 +19,18 @@ UNICORNS, CATS, and PUFFINS, OH MY! Help Slanky reach infinity in this wacky end
 * Rely on your buddy, Mr Puffin, to save you when you need him the most.
 * Avoid the fairies, no matter how charming they are
 
+## Screenshots
+
+![Climb as High as You Can](/images/screens/slankys/climb.png)
+![Rocket Cats](/images/screens/slankys/rockets.png)
+![Infinite Upgrades](/images/screens/slankys/upgrades.png)
+![Puffins](/images/screens/slankys/puffins.png)
+![Magical Fairies](/images/screens/slankys/fairies.png)
+{: class="screenshots"}
+
 ## Game Time
 
 Compete to get the highest score between you and your friends!
-
 
 ### Technologies Used
 
