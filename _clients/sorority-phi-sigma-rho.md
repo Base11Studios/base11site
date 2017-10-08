@@ -6,7 +6,7 @@ image_path: /images/clients/phirho.jpg
 ---
 
 Custom website built for the [Phi Sigma Rho National Sorority](http://www.phisigmarho.org/).
-The site is a a content management system built using Drupal. 
+The site is a content management system built using Drupal, complete with a public facing section and a member's only portal with authentication, news, event planning, and e-commerce.
 
 ## Features
 
