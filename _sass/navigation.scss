@@ -1,7 +1,10 @@
 .nav-open {
 	header {
-		background: #444;
+		box-shadow: 0px 1px 35px 1px #444;
+		background: #222 url($pattern);
 		z-index: 10;
+		transition: 0.2s ease-in-out;
+
 
 		@media #{$mid-point} {
 			background: none;
@@ -55,14 +58,15 @@ nav {
 
 	a {
 		margin: 0 3px;
-		padding: 20px 10px;
-		color: rgba(255, 255, 255, 0.8);
+		padding: 10px;
+		color: #000;
 		transition: 0.2s ease-in-out;
 		display: none;
 		font-size: 1rem;
+		border-radius: 6px;
 
 		@media #{$mid-point} {
-			border-bottom: 2px solid rgba(255, 255, 255, 0);
+			border-bottom: 1px solid rgba(255, 255, 255, 0);
 			display: block;
 			padding: 10px;
 		}
@@ -86,10 +90,11 @@ nav {
 	}
 
 	a:hover {
-		color: #fff;
+		color: $body-text;
 
 		@media #{$mid-point} {
-			border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+			box-shadow: 0px 1px 35px 1px #cccccc;
+			color: $brand-color;
 			display: block;
 			padding: 10px;
 		}
@@ -108,6 +113,6 @@ nav {
 	}
 
 	a.active {
-		color: #fff;
+		color: $brand-color;
 	}
 }
