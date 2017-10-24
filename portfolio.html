@@ -4,10 +4,10 @@ heading: Our Work
 subtitle: We're proud of the work we do.
 ---
 
-<section class="diagonal patterned">
+<section class="diagonal">
 	<div class="container">
 	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_clients/" class="btn"><strong>&#9998;</strong> Manage Clients</a></p>
-		<ul class="image-grid">
+		<ul class="image-grid-floating">
 			{% for client in site.clients %}
 				<li>
 					<a href="{{ site.baseurl }}{{ client.url }}">
