@@ -70,6 +70,8 @@ footer {
 
 			&:hover {
 				text-decoration: none;
+				transition: 0.2s ease-in-out;
+				background: #fefefe;
 				box-shadow: 0px 1px 35px 1px #cccccc;
 
 				svg {
