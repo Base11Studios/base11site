@@ -10,7 +10,7 @@ subtitle: Meet our efficient and qualified team.
 		<ul class="image-grid-floating">
 			{% for member in site.staff_members %}
 				<li>
-					<a href="https://twitter.com/{{ member.twitter }}">
+					<a href="{{ member.personal_site }}">
 						<img src="{{ member.image_path }}" alt="{{ member.name }}"
 						data-tilt
 						data-tilt-max="10"
