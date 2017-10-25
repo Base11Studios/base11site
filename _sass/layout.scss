@@ -254,7 +254,6 @@ section {
 		}
 
 		> a:hover {
-			opacity: 0.9;
 			text-decoration: none;
 		}
 	}
@@ -323,6 +322,16 @@ section {
 
 	img {
 		height: 55px;
+	}
+}
+
+.author {
+	max-width: 300px;
+	max-height: 300px;
+
+	img {
+		max-width: 300px;
+		max-height: 300px;
 	}
 }
 

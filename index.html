@@ -21,7 +21,18 @@ title: Base11 Studios
 		<div>
 			<ul class="image-grid-floating">
 				{% for client in site.clients limit: 4 %}
-					<li><a href="{{ site.baseurl }}{{ client.url }}"><img src="{% include relative-src.html src=client.image_path %}"></a></li>
+					<li>
+						<a href="{{ site.baseurl }}{{ client.url }}">
+							<img src="{% include relative-src.html src=client.image_path %}"
+								data-tilt
+								data-tilt-max="20"
+								data-tilt-glare="true"
+								data-tilt-speed="400"
+								data-tilt-scale="1.1"
+								data-tilt-max="20"
+								data-tilt-perspective="900">
+						</a>
+					</li>
 				{% endfor %}
 			</ul>
 		</div>
