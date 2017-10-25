@@ -5,17 +5,25 @@ $pattern: "{{ site.baseurl }}/images/pattern.png";
 $screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
 
 $brand-color: #009DDC;
-$html-background-color: #222;
+$primary-background-color: #fefefe;
+$secondary-background-color: #fefefe;
+$html-background-color: #fefefe;
 $secondary-brand-color: #009B72;
 $tertiary-brand-color: #6761A8;
 $middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
+
+// Text Color
+$body-text: #222;
+$body-text-dark: #111;
+$body-text-light: #eee;
+$body-text-grey: #ccc;
 
 // Breakpoints
 $tablet: "(min-width: 450px)";
 $mid-point: "(min-width: 620px)";
 $desktop: "(min-width: 768px)";
 
-$section-rotation: 5deg;
+$section-rotation: 0deg;
 
 @import "elements";
 @import "layout";

@@ -10,16 +10,17 @@
 .blog-post {
 	h3 {
 		margin: 0;
+		font-weight: 500;
 		a {
 			color: #000;
 			text-decoration: none;
-			font-weight: normal;
 			font-size: 1.3em;
 		}
 	}
 
 	h2 {
 		text-align: left;
+		font-weight: 500;
 	}
 
 	.post-details {
@@ -29,7 +30,6 @@
 		.blog-filter {
 			display: inline-block;
 			text-align: left;
-			text-transform: capitalize;
 
 			a {
 				position: relative;

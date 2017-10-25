@@ -2,15 +2,16 @@
 title: Base11 Studios
 ---
 
-<section class="hero diagonal">
+<section class="hero">
 	<div class="container">
-		<h2 class="editable">We build fancy apps</h2>
-		<p class="subtext editable">Specializing in iOS and Android <strong>mobile apps</strong> + responsive <strong>websites</strong>. Cincinnati is our home.</p>
+		<h2 class="editable">Base11 Studios</h2>
+		<p class="subtext editable">Specializing in iOS and Android <strong>mobile apps</strong> + responsive <strong>websites</strong>.</p>
+		<p class="subtext editable">Cincinnati is our home.</p>
 		<p><a class="button alt" href="{{ site.baseurl }}/contact/">Contact Us</a></p>
 	</div>
 </section>
 
-<section class="diagonal patterned">
+<section class="alternate pattern-section">
 	<div class="container halves">
 		<div>
 			<h3 class="editable">We're proud of our work</h3>
@@ -18,16 +19,27 @@ title: Base11 Studios
 			<p class="editable"><a href="{{ site.baseurl }}/portfolio/">View Full Portfolio &rarr;</a></p>
 		</div>
 		<div>
-			<ul class="image-grid">
+			<ul class="image-grid-floating">
 				{% for client in site.clients limit: 4 %}
-					<li><a href="{{ site.baseurl }}{{ client.url }}"><img src="{% include relative-src.html src=client.image_path %}"></a></li>
+					<li>
+						<a href="{{ site.baseurl }}{{ client.url }}">
+							<img src="{% include relative-src.html src=client.image_path %}"
+								data-tilt
+								data-tilt-max="20"
+								data-tilt-glare="true"
+								data-tilt-speed="400"
+								data-tilt-scale="1.1"
+								data-tilt-max="20"
+								data-tilt-perspective="900">
+						</a>
+					</li>
 				{% endfor %}
 			</ul>
 		</div>
 	</div>
 </section>
 
-<section class="diagonal alternate">
+<section class="alternate">
 	<div class="container halves">
 		<div>
 			<ul class="image-list">

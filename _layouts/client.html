@@ -3,10 +3,10 @@ layout: default
 ---
 {% assign portfolio = site.pages | where: "path", "portfolio.html" | first %}
 
-<section class="hero diagonal">
+<section class="hero">
 	<div class="container">
 		{% if portfolio.heading %}
-		<h2><a href="{{ site.baseurl }}/portfolio/">{{ portfolio.heading }}</a> / {{ page.title | capitalize }}</h2>
+		<h2><a href="{{ site.baseurl }}/portfolio/">{{ portfolio.heading }}</a> / {{ page.title }}</h2>
 		{% endif %}
 		{% if page.subtitle %}
 			<p class="subtext">{{ page.subtitle }}</p>
@@ -14,7 +14,7 @@ layout: default
 	</div>
 </section>
 
-<section class="diagonal">
+<section>
 	<div class="container">
 		<p><img src="{% include relative-src.html src=page.image_path %}" class="screenshot"></p>
 		<div>

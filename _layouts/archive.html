@@ -3,10 +3,10 @@ layout: default
 ---
 {% assign blog = site.pages | where: "path", "blog/index.html" | first %}
 
-<section class="hero diagonal">
+<section class="hero-casual">
 	<div class="container">
 		{% if blog.heading %}
-		<h2><a href="{{ site.baseurl }}/blog/">{{ blog.heading }}</a> / {{ page.title | capitalize }}</h2>
+		<h2><a href="{{ site.baseurl }}/blog/">{{ blog.heading }}</a> / {{ page.title }}</h2>
 		{% endif %}
 		{% if blog.subtitle %}
 			<p class="subtext">{{ blog.subtitle }}</p>
@@ -14,7 +14,7 @@ layout: default
 	</div>
 </section>
 
-<section class="diagonal">
+<section>
 	<div class="text-container">
 		<ul class="blog-posts">
 			{% include list-posts.html posts=page.posts %}

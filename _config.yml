@@ -9,14 +9,14 @@ disqus_shortname:
 description: Mobile application development in Cincinnati, OH.
 
 # Author details for the jekyll-seo-tag gem
-author: 
+author:
   name: "Base11 Studios"
   email: "dan@base11studios.com"
-  twitter: # twitter username without the @ symbol
+  twitter: base11studios
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Urban Template
+  name: Base11 Studios
   links:
     - https://github.com/CloudCannon/urban-jekyll-template
 

@@ -36,7 +36,7 @@
 		</header>
 		{{ content }}
 
-		<footer class="diagonal">
+		<footer>
 			<div class="container">
 				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Update Footer Sections</a></p>
 
@@ -70,7 +70,7 @@
 				</div>
 			</div>
 
-			<div class="legal-line">
+			<div class="legal-line" data-type>
 				<p class="container">
 					&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }}
 					&bull;
@@ -86,5 +86,8 @@
 				return false;
 			};
 		</script>
+
+		<script type="text/javascript" src="{{ site.baseurl }}/vanilla-tilt.min.js"></script>
+
 	</body>
 </html>

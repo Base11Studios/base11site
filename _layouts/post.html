@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-<section class="diagonal">
+<section>
 	<div class="blog-post text-container">
 		{% include post-title.html post=page %}
 		<div class="post-content">
@@ -12,10 +12,10 @@ layout: page
 
 
 {% if page.author_staff_member %}
-	<section class="diagonal patterned">
+	<section class="patterned">
 		<div class="container">
 			<h2>Author</h2>
-			<ul class="image-grid">
+			<ul class="image-grid-floating">
 				{% assign author_id = page.author_staff_member | prepend: "/staff_members/" | append: "/" %}
 				{% assign author = site.staff_members | where: "url", author_id | first %}
 
@@ -25,7 +25,7 @@ layout: page
 	</section>
 {% endif %}
 
-<section class="diagonal alternate">
+<section class="alternate">
 	<div class="text-container">
 		<h2>Next post</h2>
 		<div class="blog-post">
@@ -39,7 +39,7 @@ layout: page
 </section>
 
 {% if site.disqus_shortname and page.show_comments %}
-	<section class="diagonal">
+	<section>
 		<div class="container">
 			<h2>Comments</h2>
 			<div id="disqus_thread"></div>
