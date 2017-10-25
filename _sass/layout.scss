@@ -52,7 +52,7 @@ header {
 }
 
 section {
-	padding: 150px 0;
+	padding: 50px 0;
 	background: #fff;
 	margin-top: -2px;
 
@@ -86,10 +86,12 @@ section {
 	}
 
 	&.alternate {
+		padding: 100px 0;
 		background: $secondary-background-color;
 	}
 
 	&.pattern-section {
+		padding: 100px 0;
 		background: #222 url($pattern);
 	}
 }
