@@ -25,7 +25,7 @@ In Mort's Minions, you are a hero of your people, trying to discover why the min
 {: class="screenshots-landscape"}
 
 ## 80 Levels
-We created something unique - there are 5 different worlds to tackle, each with 16 levels! 
+We created something unique - there are 5 different worlds to tackle, each with 16 levels!
 * Terra (earth)
 * Aqua (water)
 * Ignis (fire)
@@ -37,7 +37,7 @@ Different artwork and minions for every world! Perfect for minion fans and those
 ## 4 Unique Characters
 Each character has different skills! Play as:
 * Jim the Warrior
-* May the Archer 
+* May the Archer
 * Leonard the Monk
 * Gary the Mage
 
@@ -58,11 +58,11 @@ Saves are automatically backed up to iCloud to ensure you don't lose your progre
 Game designed and developed by Dan Bellinski at Base11 Studios, Ltd with support and lots of love from friends and family. Support indie development and give it a try!
 
 ### Support
-http://www.mortsminions.com/
+[http://www.mortsminions.com/](http://www.mortsminions.com/)
 
 ### Technologies Used
 
-* SWIFT, XCode, 
+* SWIFT, XCode,
 * SpriteKit
 * Spriter
 * Affinity Designer
