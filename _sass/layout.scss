@@ -63,19 +63,13 @@ section {
 		margin-top: -100px;
 		padding-top: 300px;
 
-		h2, p {
-			max-width: 90%;
-		}
-
 		h2 {
 			font-size: 3.5rem;
-			font-weight: 700;
 		}
 
 		p {
 			font-size: 1.6rem;
 			color: $body-text;
-			font-weight: 400;
 		}
 
 		a:not(.button) {
@@ -103,7 +97,7 @@ section {
 	color: $brand-color;
 	background: #fff;
 	text-decoration: none;
-	font-weight: 700;
+	font-weight: 500;
 	cursor: pointer;
 	margin: 20px 0 0 0;
 	text-decoration: none !important;
@@ -280,7 +274,6 @@ section {
 
 	.name {
 		font-size: 1.5rem;
-		font-weight: 700;
 		color: $brand-color;
 	}
 
