@@ -86,7 +86,7 @@ section {
 
 	&.pattern-section {
 		padding: 100px 0;
-		background: #222 url($pattern);
+		background: $secondary-background-color url($pattern);
 	}
 }
 
@@ -297,7 +297,7 @@ section {
 }
 
 .patterned {
-	background: #222 url($pattern);
+	background: $secondary-background-color url($pattern);
 
 	&,
 	p {
