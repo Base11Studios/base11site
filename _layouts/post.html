@@ -15,7 +15,7 @@ layout: page
 	<section class="patterned">
 		<div class="container">
 			<h2>Author</h2>
-			<ul class="image-grid-floating">
+			<ul class="image-grid-plain">
 				{% assign author_id = page.author_staff_member | prepend: "/staff_members/" | append: "/" %}
 				{% assign author = site.staff_members | where: "url", author_id | first %}
 
