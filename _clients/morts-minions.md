@@ -5,8 +5,8 @@ external_url: http://www.mortsminions.com/
 image_path: /images/clients/mortsminions.png
 ---
 
-[![iOS Download]({{ site.baseurl }}/images/app-store-badge.svg)](https://itunes.apple.com/us/app/morts-minions-side-scroller-adventure-rpg/id1082229199?mt=8)
-{: class="app-store-badge"}
+[![iOS Download]({{ site.baseurl }}/images/app-store-badge.svg)](https://itunes.apple.com/us/app/morts-minions-side-scroller-adventure-rpg/id1082229199?mt=8){: class="app-store-badge"}
+{:target="_blank"}
 
 Jump into the exciting world of Mort's Minions by helping the minions in this lovely combination of side scroller & adventure RPG! Jump, dodge and slash like never before. It's very simple to play with tons of levels and over 40 different minions to encounter.
 

@@ -13,6 +13,11 @@
 	max-width: 1000px;
 }
 
+video {
+	width: 100%    !important;
+	height: auto   !important;
+}
+
 header {
 	color: #fff;
 	padding: 20px 0;
@@ -37,6 +42,11 @@ header {
 	}
 }
 
+.list-posts-image {
+	max-width: 180px;
+	max-height: 180px;
+}
+
 .content {
 	background: #fff;
 	padding: 1px 0 0 0;
@@ -52,7 +62,7 @@ header {
 }
 
 section {
-	padding: 50px 0;
+	padding: 35px 0;
 	background: #fff;
 	margin-top: -2px;
 

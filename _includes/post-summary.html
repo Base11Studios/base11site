@@ -1,6 +1,17 @@
-<h3><a href="{{ site.baseurl }}{{ include.post.url }}">{{ include.post.title }}</a></h3>
-{% include post-title.html post=post %}
-<div class="post-content">
-	{{ include.post.excerpt }}
-	<p><a href="{{ site.baseurl }}{{ include.post.url }}">Read More &rarr;</a></p>
+<div class="row">
+	<div class="col-sm-3">
+		<img class="list-posts-image center-block" src="{{ site.baseurl }}/images/{{include.post.featured_image}}" />
+	</div>
+	<div class="col-sm-9">
+		<h3>
+			<a href="{{ site.baseurl }}{{ include.post.url }}">{{ include.post.title }}</a>
+		</h3>
+		{% include post-title.html post=post %}
+		<div class="post-content">
+			{{ include.post.excerpt }}
+			<p>
+				<a href="{{ site.baseurl }}{{ include.post.url }}">Read More &rarr;</a>
+			</p>
+		</div>
+	</div>
 </div>

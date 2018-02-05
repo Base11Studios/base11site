@@ -1,18 +1,28 @@
 ---
 title: Slankys Big Climb Version 1.2 Released
+date: 2017-10-05
 categories:
   - slankys big climb
   - games
   - ios
   - android
 author_staff_member: dan
-show_comments: true
+featured_image: gold_rainbow.png
 ---
 
-![Slankys]({{ site.baseurl }}/images/gold_rainbow.png)
+<div class="row">
+<div class="col-md-6">
 
 What's at the end of a rainbow? Tons of money of course! Get more points with the new POT OF GOLD pick-up in version 1.2. Available for download now on the App Store and Google Play.
 
-[![iOS Download]({{ site.baseurl }}/images/app-store-badge.svg)](https://itunes.apple.com/us/app/slankys-big-climb-endless-run/id1280790074?mt=8)
-[![Android Download]({{ site.baseurl }}/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.base11studios.infiniteclimb&hl=en)
-{: class="app-store-badge"}
+[![iOS Download]({{ site.baseurl }}/images/app-store-badge.svg)](https://itunes.apple.com/us/app/slankys-big-climb-endless-run/id1280790074?mt=8){:target="_blank"}
+[![Android Download]({{ site.baseurl }}/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.base11studios.infiniteclimb&hl=en){:target="_blank"}
+{:class="app-store-badge"}
+
+</div>
+<div class="col-md-6">
+
+![Slankys]({{ site.baseurl }}/images/gold_rainbow.png){:.center-block}
+
+</div>
+</div>

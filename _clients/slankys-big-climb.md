@@ -5,9 +5,9 @@ external_url:
 image_path: /images/clients/slankys.jpg
 ---
 
-[![iOS Download]({{ site.baseurl }}/images/app-store-badge.svg)](https://itunes.apple.com/us/app/slankys-big-climb-endless-run/id1280790074?mt=8)
-[![Android Download]({{ site.baseurl }}/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.base11studios.infiniteclimb&hl=en)
-{: class="app-store-badge"}
+[![iOS Download]({{ site.baseurl }}/images/app-store-badge.svg)](https://itunes.apple.com/us/app/slankys-big-climb-endless-run/id1280790074?mt=8){:target="_blank"}
+[![Android Download]({{ site.baseurl }}/images/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.base11studios.infiniteclimb&hl=en){:target="_blank"}
+{:.app-store-badge}
 
 UNICORNS, CATS, and PUFFINS, OH MY! Help Slanky reach infinity in this wacky endless runner. Test your skills and get tons of upgrades! Tap, tap, tap some more.
 

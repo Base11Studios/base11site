@@ -1,5 +1,5 @@
 ---
-name: Phi Sigma Rho Template
+name: Phi Sigma Rho National Sorority
 subtitle: Phi Sigma Rho National Sorority Website
 external_url: http://www.phisigmarho.org/
 image_path: /images/clients/phirho.jpg

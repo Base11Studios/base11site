@@ -40,6 +40,10 @@ gems:
   - "jekyll-paginate"
   - "jekyll-archives"
 
+kramdown:
+  # parse markdown inside block-level HTML tag
+  parse_block_html: true
+
 defaults:
   - scope:
       path: ""
