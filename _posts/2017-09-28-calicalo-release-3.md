@@ -2,9 +2,9 @@
 date: 2017-09-27
 title: CaliCalo 3.0 Update is Now Live!
 categories:
-  - calicalo
-  - ios
   - heath & fitness
+  - ios
+  - calicalo
 author_staff_member: eric
 featured_image: calicalo/change_target.png
 ---

@@ -2,10 +2,10 @@
 title: Slankys Big Climb Version 1.2 Released
 date: 2017-10-05
 categories:
-  - slankys big climb
   - games
   - ios
   - android
+  - slankys big climb
 author_staff_member: dan
 featured_image: gold_rainbow.png
 ---

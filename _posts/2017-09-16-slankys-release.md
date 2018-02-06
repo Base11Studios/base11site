@@ -1,10 +1,10 @@
 ---
 title: Slankys Big Climb Released
 categories:
-  - slankys big climb
   - games
   - ios
   - android
+  - slankys big climb
 author_staff_member: dan
 featured_image: clients/slankys.jpg
 ---

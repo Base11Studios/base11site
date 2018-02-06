@@ -2,9 +2,9 @@
 date: 2017-03-08
 title: CaliCalo is in the App Store!
 categories:
-  - calicalo
-  - ios
   - heath & fitness
+  - ios
+  - calicalo
 author_staff_member: dan
 featured_image: orange_icon.png
 ---

@@ -2,9 +2,9 @@
 date: 2017-08-24
 title: CaliCalo 2.0 Update is Now Live!
 categories:
-  - calicalo
-  - ios
   - heath & fitness
+  - ios
+  - calicalo
 author_staff_member: dan
 featured_image: calicalo/monitor_progress.jpg
 ---

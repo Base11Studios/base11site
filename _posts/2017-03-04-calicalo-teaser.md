@@ -2,9 +2,9 @@
 date: 2017-03-04
 title: Introducing CaliCalo – Apple Watch and iPhone App!
 categories:
-  - calicalo
-  - ios
   - heath & fitness
+  - ios
+  - calicalo
 author_staff_member: dan
 featured_image: snapshot.png
 ---
