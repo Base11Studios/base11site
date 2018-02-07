@@ -13,24 +13,24 @@ Base11 Studios uses [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://p
 
 If you've never used either and want a jump start - check out this simple guide to deploying your first GitHub pages site in less than 10 (ish) minutes!
 
-[![slide 2](/images/jekyll-startup-guide-img.002.jpeg)](https://pages.github.com/)
+[![github pages site link](/images/jekyll-startup-guide-img.002.jpeg)](https://pages.github.com/)
 
-[![slide 3](/images/jekyll-startup-guide-img.003.jpeg)](https://jekyllrb.com/)
+[![jekyll home page docs site link](/images/jekyll-startup-guide-img.003.jpeg)](https://jekyllrb.com/)
 
-![slide 4](/images/jekyll-startup-guide-img.004.jpeg)
+![creating a new repository on github](/images/jekyll-startup-guide-img.004.jpeg)
 
-![slide 5](/images/jekyll-startup-guide-img.005.jpeg)
+![turn on github pages on the master branch](/images/jekyll-startup-guide-img.005.jpeg)
 
-![slide 6](/images/jekyll-startup-guide-img.006.jpeg)
+![add a github pages theme to your website using the minimal theme](/images/jekyll-startup-guide-img.006.jpeg)
 
-![slide 7](/images/jekyll-startup-guide-img.007.jpeg)
+![preview your web site live](/images/jekyll-startup-guide-img.007.jpeg)
 
-![slide 8](/images/jekyll-startup-guide-img.008.jpeg)
+![edit your readme markdown to be rendered in html](/images/jekyll-startup-guide-img.008.jpeg)
 
-![slide 9](/images/jekyll-startup-guide-img.009.jpeg)
+![see your live changes immediately](/images/jekyll-startup-guide-img.009.jpeg)
 
-[![slide 10](/images/jekyll-startup-guide-img.010.jpeg)](https://jekyllrb.com/docs/home/)
+[![jekyll docs next step with octocat](/images/jekyll-startup-guide-img.010.jpeg)](https://jekyllrb.com/docs/home/)
 
-[![slide 11](/images/jekyll-startup-guide-img.011.jpeg)](https://cloudcannon.com/announcements/2016/12/05/free-jekyll-templates/)
+[![make your site pretty with cloudcannon jekyll themes](/images/jekyll-startup-guide-img.011.jpeg)](https://cloudcannon.com/announcements/2016/12/05/free-jekyll-templates/)
 
 Learn more about Jekyll on [ajkueterman.com](http://ajkueterman.com/2018-02-06/painfully-simple-jekyll/)
