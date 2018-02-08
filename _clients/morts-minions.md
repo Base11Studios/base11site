@@ -1,7 +1,7 @@
 ---
 name: Mort's Minions Side Scroller
 subtitle: Adventure RPG with a Retro Vibe for iOS
-external_url: http://www.mortsminions.com/
+external_url: https://morts.base11studios.com/
 image_path: /images/clients/mortsminions.png
 ---
 
@@ -58,7 +58,7 @@ Saves are automatically backed up to iCloud to ensure you don't lose your progre
 Game designed and developed by Dan Bellinski at Base11 Studios, Ltd with support and lots of love from friends and family. Support indie development and give it a try!
 
 ### Support
-[http://www.mortsminions.com/](http://www.mortsminions.com/)
+[https://morts.base11studios.com/](https://morts.base11studios.com/)
 
 ### Technologies Used
 

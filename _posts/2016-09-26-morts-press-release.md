@@ -36,7 +36,7 @@ Device Requirements:
 Pricing and Availability:
 Mort's Minions 1.0 is Free and available worldwide exclusively through the App Store in the Games category. For more information about Mort's Minions, or Base11 Studios, contact Dan Bellinski.
 
-<a title="Mort's Minions 1.0" href="http://www.mortsminions.com/" target="_blank">Mort's Minions 1.0</a>
+<a title="Mort's Minions 1.0" href="https://morts.base11studios.com/" target="_blank">Mort's Minions 1.0</a>
 
 <a title="Download from iTunes" href="https://itunes.apple.com/app/morts-minions/id1082229199" target="_blank">Download from iTunes</a>
 
