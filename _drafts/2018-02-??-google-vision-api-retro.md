@@ -1,4 +1,13 @@
-# Mobile Vision API
+---
+date: 2018-02-??
+title: What I Learned Using Google's Mobile Vision API
+categories:
+  - android
+  - ios
+  - google vision
+author_staff_member: aj
+featured_image: octojekyll.png
+---
 
 While Base11 Studios hasn't released any camera focused applications, I have spent significant time in the last year developing scanning features in Android applications that utilize the phone camera.  I want to take a minute to unpack what I've learned.
 
