@@ -7,6 +7,8 @@ categories:
   - morts minions
 author_staff_member: dan
 featured_image: wizard.png
+image:
+  path: /images/wizard.png
 ---
 
 <div class="row">

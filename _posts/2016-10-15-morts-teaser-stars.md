@@ -7,6 +7,8 @@ categories:
   - morts minions
 author_staff_member: dan
 featured_image: rewards.png
+image:
+  path: /images/rewards.png
 ---
 
 <div class="row">

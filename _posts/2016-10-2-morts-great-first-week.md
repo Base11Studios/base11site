@@ -7,6 +7,8 @@ categories:
   - morts minions
 author_staff_member: dan
 featured_image: gary-celebrating@2x.png
+image:
+  path: /images/gary-celebrating@2x.png
 ---
 
 <div class="row">

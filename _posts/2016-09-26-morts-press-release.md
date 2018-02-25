@@ -7,6 +7,8 @@ categories:
   - morts minions
 author_staff_member: dan
 featured_image: prowler.png
+image:
+  path: /images/prowler.png
 ---
 
 #### Mort's Minions introduced for iOS - A Retro Side-Scrolling RPG Adventure

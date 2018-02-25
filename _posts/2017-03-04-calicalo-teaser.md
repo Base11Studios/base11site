@@ -7,6 +7,8 @@ categories:
   - calicalo
 author_staff_member: dan
 featured_image: snapshot.png
+image:
+  path: /images/snapshot.png
 ---
 
 Soon, Base11 Studios is launching CaliCalo, an energy balance app for Apple Watch, supported by iPhone. Monitor your daily calorie intake and use the calorie progress meter on the watch to see how you’re tracking to meet your daily calorie goals.

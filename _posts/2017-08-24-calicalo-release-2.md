@@ -7,6 +7,8 @@ categories:
   - calicalo
 author_staff_member: dan
 featured_image: calicalo/monitor_progress.jpg
+image:
+  path: /images/calicalo/monitor_progress.jpg
 ---
 
 #### Check out the feature packed CaliCalo Release notes below.
