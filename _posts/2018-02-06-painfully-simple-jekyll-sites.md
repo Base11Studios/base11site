@@ -7,6 +7,8 @@ categories:
   - jekyll
 author_staff_member: aj
 featured_image: octojekyll.png
+image:
+  path: /images/octojekyll.png
 ---
 
 Base11 Studios uses [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/) to build out many of our project pages (including this site!).  Jekyll is an awesome site generating tool and GitHub Pages makes it even easier to build and deploy a site in no time and for free from your GitHub repos.
