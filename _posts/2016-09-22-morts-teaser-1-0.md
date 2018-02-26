@@ -7,6 +7,8 @@ categories:
   - morts minions
 author_staff_member: dan
 featured_image: shark.png
+image:
+  path: /images/shark.png
 ---
 
 #### Get Excited! Watch below.

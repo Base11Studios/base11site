@@ -7,6 +7,8 @@ categories:
   - morts minions
 author_staff_member: dan
 featured_image: leonard-punch.png
+image:
+  path: /images/leonard-punch.png
 ---
 
 <div class="row">

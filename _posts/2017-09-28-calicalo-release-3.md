@@ -7,6 +7,8 @@ categories:
   - calicalo
 author_staff_member: eric
 featured_image: calicalo/change_target.png
+image:
+  path: /images/calicalo/change_target.png
 ---
 
 <div class="row">

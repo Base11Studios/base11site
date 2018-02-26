@@ -7,6 +7,8 @@ categories:
   - slankys big climb
 author_staff_member: dan
 featured_image: clients/slankys.jpg
+image:
+  path: /images/clients/slankys.jpg
 ---
 
 <div class="row">

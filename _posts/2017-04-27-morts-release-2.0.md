@@ -7,6 +7,8 @@ categories:
   - morts minions
 author_staff_member: dan
 featured_image: kingtempus.png
+image:
+  path: /images/kingtempus.png
 ---
 
 Finally the 5th world for Mort's Minions is live. Immerse yourself in time and fight your way to King Tempus to save the minions. Oh, and turn up the volume because the new music is sweet!

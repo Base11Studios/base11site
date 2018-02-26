@@ -7,6 +7,8 @@ categories:
   - morts minions
 author_staff_member: dan
 featured_image: ogre.png
+image:
+  path: /images/ogre.png
 ---
 
 Our latest update to Mort’s Minions, version 1.1, is Live! We've been hard at work to bring some enhancements to add to the fun. This is our biggest update yet - download it now and start playing

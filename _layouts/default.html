@@ -82,7 +82,19 @@
 		</div>
 	</footer>
 
-
+	<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+	<script>
+	// Initialize Firebase
+	var config = {
+		apiKey: "AIzaSyBe5mIKBxM7Ncc8AUvv9JdWKUy_rq7e92I",
+		authDomain: "base11-studios-s-1507492584491.firebaseapp.com",
+		databaseURL: "https://base11-studios-s-1507492584491.firebaseio.com",
+		projectId: "base11-studios-s-1507492584491",
+		storageBucket: "",
+		messagingSenderId: "281504151834"
+	};
+	firebase.initializeApp(config);
+	</script>
 	<script>
 		document.getElementById("open-nav").onclick = function () {
 			document.body.classList.toggle("nav-open");

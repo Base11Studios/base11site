@@ -8,6 +8,8 @@ categories:
   - slankys big climb
 author_staff_member: dan
 featured_image: gold_rainbow.png
+image:
+  path: /images/gold_rainbow.png
 ---
 
 <div class="row">
