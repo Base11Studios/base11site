@@ -1,5 +1,5 @@
 ---
-date: 2018-02-28
+date: 2018-03-01
 title: What I Learned Using Google's Mobile Vision API
 categories:
   - android
