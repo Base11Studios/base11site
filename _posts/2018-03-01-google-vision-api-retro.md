@@ -6,9 +6,9 @@ categories:
   - ios
   - google vision
 author_staff_member: aj
-featured_image: /octocats/filmocat.png
+featured_image: /octocats/filmtocat.png
 image:
-  path: /images/octocats/filmocat.png
+  path: /images/octocats/filmtocat.png
 ---
 
 While Base11 Studios hasn't released any camera focused applications, I have spent significant time in the last year developing scanning features in Android applications that utilize the phone camera.  I want to take a minute to unpack what I've learned.
