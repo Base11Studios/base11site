@@ -40,6 +40,7 @@ This should come as a relief to you.  The Android Camera API's (yes, multiple) a
 | 21-23     | Camera2    | TextureView  |
 | 24        | Camera2    | SurfaceView  |
 
+
 Instead of the Android Camera, you're going to be using a `CameraSource` to manage the camera and `CameraSourcePreview` to manage the camera preview.  The [android-vision sample](https://github.com/googlesamples/android-vision) on GitHub includes all the sample files you need to manage the camera UI in the Barcode sample [here](https://github.com/googlesamples/android-vision/tree/master/visionSamples/barcode-reader/app/src/main/java/com/google/android/gms/samples/vision/barcodereader/ui/camera).  
 
 *[The rest of the Barcode sample classes](https://github.com/googlesamples/android-vision/tree/master/visionSamples/barcode-reader/app/src/main/java/com/google/android/gms/samples/vision/barcodereader)*
