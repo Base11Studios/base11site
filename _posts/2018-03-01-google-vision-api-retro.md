@@ -6,7 +6,6 @@ categories:
   - ios
   - google vision
 author_staff_member: aj
-featured_image: /octocats/filmocat.png
 image:
   path: /images/octocats/filmocat.png
 ---
