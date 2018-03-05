@@ -41,9 +41,8 @@ gems:
   - "jekyll-archives"
   - "jekyll-sitemap"
 
-kramdown:
-  # parse markdown inside block-level HTML tag
-  parse_block_html: true
+redcarpet:
+    extensions: ["fenced_code_blocks, no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
 
 defaults:
   - scope:
