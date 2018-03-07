@@ -1,7 +1,7 @@
 ---
 name: Ball Washers Invitational
 subtitle: Live scoring golf outing app for iOS
-external_url: 
+external_url:
 image_path: /images/clients/ballwashers.png
 ---
 
