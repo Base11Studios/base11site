@@ -5,7 +5,7 @@ external_url:
 image_path: /images/clients/fuzzzy.png
 ---
 
-[![iOS Download]({{ site.baseurl }}/images/app-store-badge.svg)](https://itunes.apple.com/us/app/calicalo-watch-your-calories/id1205082048?mt=8){: class="app-store-badge"}
+[![iOS Download]({{ site.baseurl }}/images/app-store-badge.svg)](https://itunes.apple.com/us/app/fuzzzy-white-noise-for-sleep/id1336284372?ls=1&mt=8){: class="app-store-badge"}
 {:target="_blank"}
 
 ### Sleep Easier
