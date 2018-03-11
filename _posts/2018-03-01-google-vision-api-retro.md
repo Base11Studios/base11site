@@ -1,14 +1,14 @@
 ---
-date: 2018-02-24
+date: 2018-03-01
 title: What I Learned Using Google's Mobile Vision API
 categories:
   - android
   - ios
   - google vision
 author_staff_member: aj
-featured_image: /octocats/filmocat.png
+featured_image: /octocats/filmtocat.png
 image:
-  path: /images/octocats/filmocat.png
+  path: /images/octocats/filmtocat.png
 ---
 
 While Base11 Studios hasn't released any camera focused applications, I have spent significant time in the last year developing scanning features in Android applications that utilize the phone camera.  I want to take a minute to unpack what I've learned.
@@ -39,6 +39,7 @@ This should come as a relief to you.  The Android Camera API's (yes, multiple) a
 | 14-20     | Camera1    | TextureView  |
 | 21-23     | Camera2    | TextureView  |
 | 24        | Camera2    | SurfaceView  |
+
 
 Instead of the Android Camera, you're going to be using a `CameraSource` to manage the camera and `CameraSourcePreview` to manage the camera preview.  The [android-vision sample](https://github.com/googlesamples/android-vision) on GitHub includes all the sample files you need to manage the camera UI in the Barcode sample [here](https://github.com/googlesamples/android-vision/tree/master/visionSamples/barcode-reader/app/src/main/java/com/google/android/gms/samples/vision/barcodereader/ui/camera).  
 
