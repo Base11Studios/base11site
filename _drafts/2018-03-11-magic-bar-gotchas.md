@@ -5,6 +5,9 @@ categories:
   - CaliCalo
   - ios
 author_staff_member: ryan
+featured_image: calicalo/magic-bar.jpg
+image:
+  path: /images/calicalo/magic-bar.jpg
 ---
 
 
@@ -14,7 +17,7 @@ Recently, we released a new version of CaliCalo with the Magic Bar. The Magic Ba
 
 - User settings impact
 - Initial sync
-- How often to allow user to sync
+- How often to allow user to sync and the impact of data we don't control
 - Handling negative progress
 - Using RxSwift
 - Synchronizing animations
