@@ -26,12 +26,9 @@ The team is also working on additional features to be released within the next f
 <div class="row">
 <div class="col-md-6">
 
-![Monitor Progress]({{ site.baseurl }}/images/calicalo/monitor_progress.jpg "Monitor Progress"){:.center-block}{:.boxed-image}
+<img class="center-block" src="{{ site.baseurl }}/images/calicalo/monitor_progress.jpg" alt="Monitor Progress"/>
 
 </div>
 <div class="col-md-6">
 
-![Track Trends]({{ site.baseurl }}/images/calicalo/track_trends.jpg "Track Trends"){:.center-block}{:.boxed-image}
-
-</div>
-</div>
+<img class="center-block" src="{{ site.baseurl }}/images/calicalo/track_trends.jpg" alt="Track Trends"/>

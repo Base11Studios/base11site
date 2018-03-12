@@ -22,4 +22,4 @@ Features:
 
 Stay tuned for the release and preview the screenshots below!
 
-![CaliCalo Watch and iPhone Screenshots]({{ site.baseurl }}/images/snapshot.png "CaliCalo Watch and iPhone Screenshots"){:.boxed-image}
+![CaliCalo Watch and iPhone Screenshots]({{ site.baseurl }}/images/snapshot.png "CaliCalo Watch and iPhone Screenshots")

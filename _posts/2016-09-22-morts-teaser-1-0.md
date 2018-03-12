@@ -13,7 +13,7 @@ image:
 
 #### Get Excited! Watch below.
 
-<video controls class="boxed-image">
+<video controls>
   <source src="{{ site.baseurl }}/images/morts-v1.mp4" type="video/mp4">
   Your browser does not support the video tag. Try Chrome!
 </video>
