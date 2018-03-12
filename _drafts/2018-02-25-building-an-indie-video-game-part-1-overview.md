@@ -24,6 +24,10 @@ Ever since I built my first program, a basketball shooting Lego Robotics trebuch
 
 Complicated, right? You'd be surprised how similar that logic is to the games I write today. In high school I was fortunate to take 2 programming classes and used the time to build a Breakout clone with VB6, then a 5 card draw poker game with Java. I didn't have a distribution platform for these games, so they went little further than showing my teachers on our school computers. It met the need at the time, but I had my eyes set higher! In college I built a FPS 3D game using OpenGL and C++ with a friend, in which your character ran around with a slingshot and shot "apples" at sheep to feed them (or at least that's what we told our professor _:)_) and once the sheep "got enough apples" they disappeared off the screen. This was really fun and we had a great start, but I spent too much time "socializing" and it didn't quite make it further than my laptop.
 
+![5 card draw welcome screen]({{ site.baseurl }}/images/games/poker/welcome.gif){: class="screenshot center-block"}
+
+> <sub><sup>The beautiful welcome screen of my 5 card draw game. These were the early days of my Photoshop skills, plus it was 2004 :)</sup></sub>
+
 Skip ahead 5 years, I graduated college, starting working full time, got married, and realized I had never fulfilled my passion to unleash my own video game on the world. I set my mind to it, committed to releasing a game, and after a few false starts I have finally done it and released my own video game (twice)! Thanks to the amazing mobile distribution platforms that Android's Google Play and the iOS App Store provide, I have been able to get my game "off of my laptop" and into the hands of thousands of people in over 20 countries.
 
 ![Morts Minions First Day Numbers - over 10 countries and 100 downloads]({{ site.baseurl }}/images/morts-first-day.png){: class="screenshot center-block"}
