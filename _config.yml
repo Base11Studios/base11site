@@ -34,6 +34,8 @@ jekyll-archives:
   enabled:
     - "categories"
 
+highlighter: rogue
+
 gems:
   - "jekyll-feed"
   - "jekyll-seo-tag"
