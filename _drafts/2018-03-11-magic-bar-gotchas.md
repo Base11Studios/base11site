@@ -11,11 +11,11 @@ image:
 ---
 
 
-Recently, we released a new version of CaliCalo with the Magic Bar. The Magic Bar helps users track their progress towards a 3500 calorie burn/surplus. Seems like a simple enough idea. The implementation was not so simple. This post discusses some of the gotchas we came across while implementing the Magic Bar
+Recently, we released a new version of CaliCalo with the Magic Bar. The Magic Bar helps users track their progress towards a 3500 calorie burn/surplus. Seems like a simple enough idea. The implementation was not so simple. This post discusses some of the gotchas we came across while implementing the Magic Bar.
 
-### Gotchas
+## Gotchas
 
-- User settings impact
+- User Settings Impact
 - Initial sync
 - How often to allow user to sync and the impact of data we don't control
 - Handling negative progress
@@ -24,3 +24,21 @@ Recently, we released a new version of CaliCalo with the Magic Bar. The Magic Ba
 - Net calorie loading indicator vs Magic Bar loading indicator
 - Reset/Hide Magic Bar
 - Showing Magic Bar upon IAP
+
+### User Settings Impact
+
+### Initial Sync
+
+### Syncing Limits and Data Variability
+
+### Handling Negative Progress
+
+### RxSwift
+
+### Synchronizing Animations
+
+### Dueling Loading Indicators
+
+### Resetting or Hiding the Magic Bar
+
+### Revealing IAP to Premium Upgrades
