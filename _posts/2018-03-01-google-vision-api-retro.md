@@ -56,8 +56,6 @@ After some Googling and searching the Issues in the repo I came across a widely 
 The gist, we need to re-size the view to be slightly beyond the view of the screen while maintaining aspect ratio and then crop it to screen size:
 
 ```java
-...
-
 // To fill the view with the camera preview, while also preserving the correct aspect ratio,
 // it is usually necessary to slightly oversize the child and to crop off portions along one
 // of the dimensions.  We scale up based on the dimension requiring the most correction, and
@@ -71,8 +69,6 @@ if (widthRatio > heightRatio) {
     childHeight = viewHeight;
     childXOffset = (childWidth - viewWidth) / 2;
 }
-
-...
 ```
 
 Compare that to the `onLayout` method in the `CameraSourcePreview` [in the sample app](https://github.com/googlesamples/android-vision/blob/2ce3132c959e76e7dbe1d8d3332abe87c246b22a/visionSamples/FaceTracker/app/src/main/java/com/google/android/gms/samples/vision/face/facetracker/ui/camera/CameraSourcePreview.java#L126).
