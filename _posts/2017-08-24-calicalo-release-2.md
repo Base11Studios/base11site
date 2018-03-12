@@ -23,6 +23,8 @@ image:
 
 The team is also working on additional features to be released within the next few months so stay tuned!
 
+{::nomarkdown}
+
 <div class="row">
 <div class="col-md-6">
 
@@ -32,3 +34,5 @@ The team is also working on additional features to be released within the next f
 <div class="col-md-6">
 
 <img class="center-block" src="{{ site.baseurl }}/images/calicalo/track_trends.jpg" alt="Track Trends"/>
+
+{:/}

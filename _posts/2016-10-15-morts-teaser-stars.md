@@ -13,4 +13,8 @@ image:
 
 Want more stars? Mort's Minions heard your feedback! An update is coming soon that gives you more chances to collect stars. Now you'll be able to get skills faster and catch up to Mort! Easier, faster, and more fun!
 
+{::nomarkdown}
+
 <img class="center-block" src="{{ site.baseurl }}/images/rewards.png" alt="Stars and Rewards" />
+
+{:/}

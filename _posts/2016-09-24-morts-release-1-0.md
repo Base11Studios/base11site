@@ -13,4 +13,8 @@ image:
 
 Mort's Minions is live! Find us on the app store <a href="https://itunes.apple.com/us/app/morts-minions/id1082229199?ls=1&amp;mt=8" target="_blank">by clicking here</a> and download it today.
 
+{::nomarkdown}
+
 <img src="{{ site.baseurl }}/images/appstore.png" alt="Morts Minions App Store"/>
+
+{:/}
