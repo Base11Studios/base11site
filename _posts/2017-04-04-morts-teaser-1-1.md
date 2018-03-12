@@ -16,12 +16,12 @@ On 4/27/17, enters the Tempus realm, a world of darkness and fear. Show your co
 <div class="row">
 <div class="col-md-6">
 
-<img class="center-block boxed-image" src="{{ site.baseurl }}/images/jim-tempus.png" alt="Jim in Tempus facing a Wizard!"/> Jim in Tempus facing a Wizard! He's guarded by his new fairy buddy.
+<img class="center-block" src="{{ site.baseurl }}/images/jim-tempus.png" alt="Jim in Tempus facing a Wizard!"/> Jim in Tempus facing a Wizard! He's guarded by his new fairy buddy.
 
 </div>
 <div class="col-md-6">
 
-<img class="center-block boxed-image" src="{{ site.baseurl }}/images/leonard-tempus.png" alt="Leonard in Tempus nearing a tough to see ghost!"/> Leonard in Tempus nearing a tough to see Ghost! First he needs to dodge those obstacles.
+<img class="center-block" src="{{ site.baseurl }}/images/leonard-tempus.png" alt="Leonard in Tempus nearing a tough to see ghost!"/> Leonard in Tempus nearing a tough to see Ghost! First he needs to dodge those obstacles.
 
 </div>
 </div>
