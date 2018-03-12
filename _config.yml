@@ -34,7 +34,7 @@ jekyll-archives:
   enabled:
     - "categories"
 
-highlighter: rogue
+highlighter: rouge
 
 gems:
   - "jekyll-feed"
