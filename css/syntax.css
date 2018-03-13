@@ -1,14 +1,13 @@
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
-.highlight {
+div .highlight {
   border-radius: 10px;
   overflow-x: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  padding: 20px;
   font-size: 1.1rem;
   font-family: 'Fira Mono', monospace;
-  box-shadow: 0px 3.5px 40px 3px #ddd; 
+  box-shadow: 0px 3.5px 40px 3px #ddd;
 }
 .highlight .cm {
   color: #999988;
