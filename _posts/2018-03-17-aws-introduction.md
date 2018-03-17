@@ -1,5 +1,5 @@
 ---
-date: 2018-03-11
+date: 2018-03-17
 title: Painfully Simple AWS Serverless Apps
 categories:
   - aws
