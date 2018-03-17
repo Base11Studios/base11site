@@ -22,10 +22,10 @@ Cloud computing can be intimidating, but there are tools to make your life easie
 
 ## Getting Started
 
-The first thing you'll need to do is [create an AWS account](https://portal.aws.amazon.com/billing/signup#/start). Unless you start having heavy traffic, your cost will be minimal, if not [zero](https://aws.amazon.com/free/). Once you're logged into the console, type *CodeStar* into the services search. Like I said, the [docs](https://docs.aws.amazon.com/codestar/latest/userguide/setting-up.html) are great, but here's the tl;dr;
+The first thing you'll need to do is [create an AWS account](https://portal.aws.amazon.com/billing/signup#/start). Unless you start having heavy traffic, your cost will be minimal, if not [zero](https://aws.amazon.com/free/). Once you're logged into the console, type `CodeStar` into the services search. Like I said, the [docs](https://docs.aws.amazon.com/codestar/latest/userguide/setting-up.html) are great, but here's the tl;dr;
 
-1. Click *+ Create a new project*
-2. Since we're going serverless, filter by *Web service* and *AWS Lambda*
+1. Click `+ Create a new project`
+2. Since we're going serverless, filter by `Web service` and `AWS Lambda`
 3. Pick the language of your choice. I prefer Python or JS. To me, Java feels a little heavy for a serverless app
 4. Name your project and choose your source control. I prefer GitHub, because it's GitHub
 5. You can set up a specific IDE, but it's not required. Since your code is in GitHub, you can just check it out and edit your code however you please
@@ -75,7 +75,7 @@ artifacts:
     - aws/template-export.yml
 ```
 
-> The sample project contains all your files in the root. In my projects I've had a need for other files. I usually nest everything in a /aws folder which is why you see `cd aws`. If you choose to do this, you'll need to update your CodeStar template to look for *aws/template-export.yaml*. After updating the template, deploy the template again and your CodePipeline will be updated. As I mentioned, I'll discuss templates in a separate post.
+> The sample project contains all your files in the root. In my projects I've had a need for other files. I usually nest everything in a /aws folder which is why you see `cd aws`. If you choose to do this, you'll need to update your CodeStar template to look for `aws/template-export.yaml`. After updating the template, deploy the template again and your CodePipeline will be updated. As I mentioned, I'll discuss templates in a separate post.
 
 The key step in your build is [aws cloudformation package](https://docs.aws.amazon.com/cli/latest/reference/cloudformation/package.html). It generates the output of the build step and sticks it in your S3 bucket. The last step of your build takes the template as input and deploys it using CloudFormation.
 
@@ -85,7 +85,7 @@ The key step in your build is [aws cloudformation package](https://docs.aws.amaz
 
 ### IAM
 
-If there is one product you want to take a deeper dive on after reading this post, it's [IAM](https://aws.amazon.com/iam/). It stands for Identity and Access Management and it has an impact on everything you build in AWS. When you were setting up CodeStar there was a check box that said *AWS CodeStar would like permission to administer AWS resources on your behalf.* This granted CodeStar permission, through IAM, to manage AWS resources. CodeStar generated a policy, that was provided to your pipeline to give it access to your S3 buckets. There's also a policy on the S3 bucket itself that prevents outside users from getting to your build assets. Again, IAM is critical to everything you do in AWS. Read up!
+If there is one product you want to take a deeper dive on after reading this post, it's [IAM](https://aws.amazon.com/iam/). It stands for Identity and Access Management and it has an impact on everything you build in AWS. When you were setting up CodeStar there was a check box that said `AWS CodeStar would like permission to administer AWS resources on your behalf.` This granted CodeStar permission, through IAM, to manage AWS resources. CodeStar generated a policy, that was provided to your pipeline to give it access to your S3 buckets. There's also a policy on the S3 bucket itself that prevents outside users from getting to your build assets. Again, IAM is critical to everything you do in AWS. Read up!
 
 ## The Serverless App
 
