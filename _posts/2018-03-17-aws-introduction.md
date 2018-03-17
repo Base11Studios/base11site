@@ -18,7 +18,7 @@ image:
   path: /images/aws/aws-codestar.png
 ---
 
-Cloud computing can be intimidating, but there are tools to make your life easier. One of those tools is [CodeStar](https://aws.amazon.com/codestar/). Among other stacks, it allows you to quickly deploy a [Serverless App](https://aws.amazon.com/serverless/?nc1=f_dr). The AWS documentation is great, but there is **a lot** of it. In this post I'll try to bubble up some of the more important points and share some of the things I've learned.
+Cloud computing can be intimidating, but there are tools to make your life easier. One of those tools is [AWS CodeStar](https://aws.amazon.com/codestar/). Among other stacks, it allows you to quickly deploy a [Serverless App](https://aws.amazon.com/serverless/?nc1=f_dr). The AWS documentation is great, but there is **a lot** of it. In this post I'll try to bubble up some of the more important points and share some of the things I've learned.
 
 ## Getting Started
 
@@ -29,7 +29,7 @@ The first thing you'll need to do is [create an AWS account](https://portal.aws.
 3. Pick the language of your choice. I prefer Python or JS. To me, Java feels a little heavy for a serverless app
 4. Name your project and choose your source control. I prefer GitHub, because it's GitHub
 5. You can set up a specific IDE, but it's not required. Since your code is in GitHub, you can just check it out and edit your code however you please
-6. The next screen you see will be your project home page. You'll see two modules. **Application endpoints** and **Continuous Deployment**. I'll go into more details about what these are later in the post. For now, wait until things stop spinning, then click the link in the Application endpoints module
+6. The next screen you see will be your project home page. You'll see two modules. **Application endpoints** and **Continuous Deployment**. Wait until things stop spinning, then click the link in the Application endpoints module
 
 ## Did I just build a RESTful API in 6 steps?
 
@@ -45,7 +45,7 @@ In this section I'll break down each of the support components of your Serverles
 
 ### CodeBuild
 
-The build step of your pipeline is handled by [CodeBuild](https://aws.amazon.com/codebuild/). When CodeStar built the pipeline, it also created an S3 bucket. The source step of the pipeline clones your repo from GitHub, zips it up, and sticks it in the S3 bucket. It is then sent to CodeBuild as an input. The files are unzipped and provided to you as a working directory. The directory needs a file named buildspec.yml in the root. Here's an example that is similar to the one you have in your sample project.
+The build step of your pipeline is handled by [CodeBuild](https://aws.amazon.com/codebuild/). When CodeStar built the pipeline, it also created an S3 bucket. The source step of the pipeline clones your repo from GitHub, zips it up, and sticks it in the S3 bucket. It is then sent to CodeBuild as an input. The files are unzipped and provided to you as a working directory. The directory needs a file named `buildspec.yml` in the root. Here's an example that is similar to the one you have in your sample project.
 
 ```yaml
 version: 0.2
@@ -75,7 +75,7 @@ artifacts:
     - aws/template-export.yml
 ```
 
-> The sample project contains all your files in the root. In my projects I've had a need for other files. I usually nest everything in a /aws folder which is why you see `cd aws`. If you choose to do this, you'll need to update your CodeStar template to look for `aws/template-export.yaml`. After updating the template, deploy the template again and your CodePipeline will be updated. As I mentioned, I'll discuss templates in a separate post.
+> The sample project contains all your files in the root. In my projects I've had a need for other files. I usually nest everything in an `/aws` folder which is why you see `cd aws`. If you choose to do this, you'll need to update your CodeStar template to look for `aws/template-export.yaml`. After updating the template, deploy the template again and your CodePipeline will be updated. As I mentioned, I'll discuss templates in a separate post.
 
 The key step in your build is [aws cloudformation package](https://docs.aws.amazon.com/cli/latest/reference/cloudformation/package.html). It generates the output of the build step and sticks it in your S3 bucket. The last step of your build takes the template as input and deploys it using CloudFormation.
 
@@ -89,11 +89,11 @@ If there is one product you want to take a deeper dive on after reading this pos
 
 ## The Serverless App
 
-The second template CodeStar generates builds out the components of your app. Here's the breakdown
+The second template CodeStar generates builds out the components of your app. Here's the breakdown.
 
 ### Lambda
 
-[Lambda](https://aws.amazon.com/lambda/) is the heart of the Serverless Architecture. You write your code, it does the rest. No need to provision servers or configure an app container. Lambda functions can be triggered by all sorts of AWS events, but the function in your sample is triggered by the API Gateway. template.yml defines both your Lambda function and how it reacts to your API
+[Lambda](https://aws.amazon.com/lambda/) is the heart of the Serverless Architecture. You write your code, it does the rest. No need to provision servers or configure an app container. Lambda functions can be triggered by all sorts of AWS events, but the function in your sample is triggered by the API Gateway. `template.yml` defines both your Lambda function and how it reacts to your API.
 
 ```yaml
 AWSTemplateFormatVersion: 2010-09-09
@@ -130,7 +130,7 @@ Resources:
 
 ### API Gateway
 
-The [API Gateway](https://aws.amazon.com/api-gateway/) is the abstraction between your code and the rest of the world. You set up endpoints that can recieve HTTP requests, authenticate them, transform the input to a Lambda function, transform the output of the Lambda function, and respond to the client. You can also handle errors and mock out responses. The API Gateway is configured via swagger. You can use a swagger template to further define your API. Any time you can put your configuration in code, like a swagger file, do it.
+The [API Gateway](https://aws.amazon.com/api-gateway/) is the abstraction between your code and the rest of the world. You set up endpoints that can receive HTTP requests, authenticate them, transform the input to a Lambda function, transform the output of the Lambda function, and respond to the client. You can also handle errors and mock out responses. You can use a swagger template to further define your API and then generate code for clients. Any time you can put your configuration in code, like a swagger file, do it.
 
 ### Now What
 
