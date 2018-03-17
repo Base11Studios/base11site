@@ -47,7 +47,7 @@ In this section I'll break down each of the support components of your Serverles
 
 The build step of your pipeline is handled by [CodeBuild](https://aws.amazon.com/codebuild/). When CodeStar built the pipeline, it also created an S3 bucket. The source step of the pipeline clones your repo from GitHub, zips it up, and sticks it in the S3 bucket. It is then sent to CodeBuild as an input. The files are unzipped and provided to you as a working directory. The directory needs a file named buildspec.yml in the root. Here's an example that is similar to the one you have in your sample project.
 
-``` YAML
+```yaml
 version: 0.2
 
 phases:
@@ -95,7 +95,7 @@ The second template CodeStar generates builds out the components of your app. He
 
 [Lambda](https://aws.amazon.com/lambda/) is the heart of the Serverless Architecture. You write your code, it does the rest. No need to provision servers or configure an app container. Lambda functions can be triggered by all sorts of AWS events, but the function in your sample is triggered by the API Gateway. template.yml defines both your Lambda function and how it reacts to your API
 
-``` YAML
+```yaml
 AWSTemplateFormatVersion: 2010-09-09
 Transform:
 - AWS::Serverless-2016-10-31
