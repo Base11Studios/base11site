@@ -1,5 +1,5 @@
 ---
-date: 2018-03-18
+date: 2018-03-25
 title: Painfully Simple Infrastructure as Code
 categories:
   - aws
@@ -13,7 +13,6 @@ image:
 ---
 
 Infrastructure in source control?! You bet. Cloud providers, such as [AWS](https://aws.amazon.com/?nc2=h_lg), have made [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_Code) simple with tools like [CloudFormation](https://aws.amazon.com/cloudformation/). With our app code we have tools to track history, run tests, automate deployments, execute rollbacks, and much more. This post will walk through a simple use case to demonstrate how we can apply some of those same concepts to infrastructure.
-
 
 ## What we're gonna do
 
