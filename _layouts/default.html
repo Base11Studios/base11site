@@ -4,19 +4,32 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="generator" content="Jekyll v{{ jekyll.version }}">
-	<meta name="google-site-verification" content="0W7cRU6l1Mi2OsmH7_jLPMLn5blk0SqtFQ59AK_qQXU" />
+	<meta name="viewport"
+	      content="width=device-width, initial-scale=1">
+	<meta name="generator"
+	      content="Jekyll v{{ jekyll.version }}">
+	<meta name="google-site-verification"
+	      content="0W7cRU6l1Mi2OsmH7_jLPMLn5blk0SqtFQ59AK_qQXU" />
 
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/grid12.css">
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+	<link rel="stylesheet"
+	      href="{{ site.baseurl }}/css/screen.css">
+	<link rel="stylesheet"
+	      href="{{ site.baseurl }}/css/grid12.css">
+	<link rel="stylesheet"
+	      href="{{ site.baseurl }}/css/syntax.css">
 
-	<link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Mono"
+	      rel="stylesheet">
 
-	<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png"> {% seo %} {% feed_meta %} {% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
+	<link rel="apple-touch-icon"
+	      href="{{ site.baseurl }}/apple-touch-icon.png">
+	<link rel="icon"
+	      type="image/png"
+	      href="{{ site.baseurl }}/touch-icon.png"
+	      sizes="192x192">
+	<link rel="icon"
+	      type="image/png"
+	      href="{{ site.baseurl }}/images/favicon.png"> {% seo %} {% feed_meta %} {% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 	<script>
 		(function (i, s, o, g, r, a, m) {
 			i["GoogleAnalyticsObject"] = r; i[r] = i[r] || function () {
@@ -35,7 +48,9 @@
 		<div class="container">
 			<h1 class="company-name">
 				<a href="{{ site.baseurl }}/">
-					<img src="{{ site.baseurl }}/images/logo.svg" alt="Urban" width="150">
+					<img src="{{ site.baseurl }}/images/logo.svg"
+					     alt="Urban"
+					     width="150">
 				</a>
 			</h1>
 			{% include navigation.html %}
@@ -46,7 +61,8 @@
 	<footer>
 		<div class="container">
 			<p class="editor-link">
-				<a href="cloudcannon:collections/_data/footer.yml" class="btn">
+				<a href="cloudcannon:collections/_data/footer.yml"
+				   class="btn">
 					<strong>&#9998;</strong> Update Footer Sections</a>
 			</p>
 
@@ -58,8 +74,21 @@
 					</li>
 					{% for link in column.links %}
 					<li>
-						<a {% if link.new_window %}target="_blank" {% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon
-						 %}class="{{ link.social_icon | slugify }}-icon" {% endif %}>
+						<a {%
+						   if
+						   link.new_window
+						   %}target="_blank"
+						   {%
+						   endif
+						   %}
+						   href="{% include relative-src.html src=link.link %}"
+						   {%
+						   if
+						   link.social_icon
+						   %}class="{{ link.social_icon | slugify }}-icon"
+						   {%
+						   endif
+						   %}>
 							{% if link.social_icon %} {% include social-icon.html icon=link.social_icon %} {% endif %} {{ link.name }}
 						</a>
 					</li>
@@ -79,7 +108,8 @@
 			</div>
 		</div>
 
-		<div class="legal-line" data-type>
+		<div class="legal-line"
+		     data-type>
 			<p class="container">
 				&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }} &bull; All Rights Reserved
 			</p>
@@ -87,17 +117,18 @@
 	</footer>
 
 	<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+	<script src="{{ site.baseurl }}/js/markdown-collapse.js"></script>
 	<script>
-	// Initialize Firebase
-	var config = {
-		apiKey: "AIzaSyBe5mIKBxM7Ncc8AUvv9JdWKUy_rq7e92I",
-		authDomain: "base11-studios-s-1507492584491.firebaseapp.com",
-		databaseURL: "https://base11-studios-s-1507492584491.firebaseio.com",
-		projectId: "base11-studios-s-1507492584491",
-		storageBucket: "",
-		messagingSenderId: "281504151834"
-	};
-	firebase.initializeApp(config);
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyBe5mIKBxM7Ncc8AUvv9JdWKUy_rq7e92I",
+			authDomain: "base11-studios-s-1507492584491.firebaseapp.com",
+			databaseURL: "https://base11-studios-s-1507492584491.firebaseio.com",
+			projectId: "base11-studios-s-1507492584491",
+			storageBucket: "",
+			messagingSenderId: "281504151834"
+		};
+		firebase.initializeApp(config);
 	</script>
 	<script>
 		document.getElementById("open-nav").onclick = function () {
@@ -106,7 +137,8 @@
 		};
 	</script>
 
-	<script type="text/javascript" src="{{ site.baseurl }}/vanilla-tilt.min.js"></script>
+	<script type="text/javascript"
+	        src="{{ site.baseurl }}/vanilla-tilt.min.js"></script>
 
 </body>
 
