@@ -43,9 +43,6 @@ Check if your bank offers free credit report monitoring. If not, try CreditWise 
 <details><summary>The Details</summary>
 <div class="details-highlight">
 <p>
-There are a lot of free ways to check these without taking a hit to your credit score. A lot of banks and financial institutions are starting to offer this for free.
-</p>
-<p>
 If you see any accounts that you didn't know about, you may be victim to identity theft.
 </p>
 <p>
@@ -58,12 +55,12 @@ These reports are also really helpful to understand the positive and negative fa
 
 #### The Short
 
-Your SSN + personal information is probably sitting on a criminals hard drive somewhere. Freeze your credit at the top 3 bureaus and get some peace of mind.
+Your social security number and personal information is probably sitting on a criminals hard drive somewhere. Freeze your credit at the top 3 bureaus and get some peace of mind.
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
 <p>
-Check if your SSN was compromised by the Equifax breach in 2017. Over 80 million people were impacted, including myself and my wife, so chances are good yours was too. At this link, scroll down half way and click the red "Am I Impacted?" Button to see. https://www.equifaxsecurity2017.com/
+Check if your social security number was compromised by the Equifax breach in 2017 <a target="_blank" href="https://www.equifaxsecurity2017.com/">here</a>. Over 80 million people were impacted, including myself and my wife, so chances are good yours was too. At this link, scroll down half way and click the red "Am I Impacted?" Button to see.
 </p>
 <p>
 It is a bit of a hassle to freeze your credit but I think its worth it. You can do it at each bureau's website in less than an hour. Once they're frozen and you want to apply for new credit, you will need to unfreeze it temporarily for a time period or for a specific lender for each bureau that the lender uses to check your credit report.
@@ -80,10 +77,7 @@ If you freeze your credit, you don't need this. If you don't want to freeze your
 <details><summary>The Details</summary>
 <div class="details-highlight">
 <p>
-This is a good article discussing when you may want Identity Theft Protection: https://www.nerdwallet.com/blog/finance/comparing-identity-theft-protection-services/
-</p>
-<p>
-Identity protection services like LifeLock are reactive, they let you know if you're compromised, but they don't prevent that theft. If you freeze your credit and monitor your credit report, these aren't really needed. 90% of identity theft is credit card related and your card will cover you.
+Here's <a target="_blank" href="https://www.nerdwallet.com/blog/finance/comparing-identity-theft-protection-services/">a great article by NerdWallet</a> discussing when you may want identity theft protection.
 </p>
 </div>
 </details>
@@ -92,7 +86,7 @@ Identity protection services like LifeLock are reactive, they let you know if yo
 
 #### The Short
 
-Look at every credit card you have every few days to look for changes you don't recognize.
+Look at every credit card you have every few days to look for transactions you don't recognize.
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
@@ -106,7 +100,15 @@ No matter how careful you are with your credit card number, it's usually only a 
 
 #### The Short
 
+Let the criminals take the credit card company's money, not your money. Its easier to dispute, and protects your hard earned money.
+
+<details><summary>The Details</summary>
+<div class="details-highlight">
+<p>
 If your credit card is compromised, the criminal is spending the credit card company's money. You never actually used your money for that transaction (unless you already paid it off). When a debit card is compromised, the criminal is using your money. It is a lot easier to dispute a credit card transaction versus getting your financial institution to refund your bank account.
+</p>
+</div>
+</details>
 
 # Passwords & Accounts
 
@@ -133,11 +135,19 @@ If you're not going to listen to this advice, you’re putting yourself at risk,
 
 Brute force attacks can go through a dictionary and combine words to attempt to find your password. "danreds" and "danreds3" are not good passwords, "dAnRedS45!21" is much better, and "23R3fr^!fRho98u7Y&f34b7" is even better.
 
+<details><summary>The Details</summary>
+<div class="details-highlight">
+<p>
+Password managers are great for creating strong, unique passwords. I love 1Password's feature to generate a password by specifying the length, number of symbols, number of digits, etc. You can use 1Password Mini to generate a password as you're signing up for a new website on your laptop without skipping a beat!
+</p>
+</div>
+</details>
+
 ### 3. Use an encrypted password manager
 
 #### The Short
 
-Subscribe to 1Password and use it to generate and store random, unique passwords securely.
+Subscribe to 1Password and use it to store passwords securely.
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
@@ -162,16 +172,7 @@ Delete your Yahoo email address and sign up for a Gmail account.
 <details><summary>The Details</summary>
 <div class="details-highlight">
 <p>
-Yahoo has had 3 massive hacks since 2013 and keeps losing personal data including passwords. Criminals can buy your login information and then go try it somewhere else.
-</p>
-<p>
-Here are a few articles discussing some of their breaches:
-</p>
-<p>
-https://www.cnet.com/how-to/find-out-if-your-yahoo-account-was-hacked/
-</p>
-<p>
-https://www.imore.com/how-delete-your-yahoo-data-and-shut-down-your-account.
+Yahoo has had 3 massive hacks since 2013 and keeps losing personal data including passwords. Criminals can buy your login information and then go try it somewhere else. iMore has an article detailing <a target="_blank" href="https://www.imore.com/how-delete-your-yahoo-data-and-shut-down-your-account">how to delete your Yahoo account</a>.
 </p>
 </div>
 </details>
@@ -190,11 +191,11 @@ Many email providers like Gmail allow you to provide a seconary email address an
 </div>
 </details>
 
-### 6. Enable 2 factor authentication on all important accounts (email, financial, personal data)
+### 6. Enable 2 factor authentication on all important accounts
 
 #### The Short
 
-Passwords get stolen, add another layer of security.
+Passwords get stolen, add another layer of security by setting up 2FA on all important accounts (email, financial, personal data).
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
@@ -213,7 +214,7 @@ This is really important for bank accounts and email accounts where a compromise
 
 #### The Short
 
-Install Mr. Number on your phone (iOS and Android) and set it up to block known scammers and provide a warning for possible scammers.
+Install Mr. Number on your phone (iOS and Android) and set it up to block known scammers and provide a heads up warning for possible scammers.
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
@@ -224,7 +225,7 @@ I get 2-4 scam calls a day. Sometimes they want my opinion on a political survey
 There are dozens of call blocker websites and they'll tell you if an incoming call is a known scammer. Some will allow you to choose to let those go straight to voicemail too. Set it up to block known scammers, otherwise let it alert you when suspected scammers call.
 </p>
 <p>
-These apps also have a phone number look-up, so you can check if a number you're going to call has been reported by another user as fake.
+These apps also usually have a phone number look-up, so you can check if a number you're going to call has been reported by another user as fake.
 </p>
 </div>
 </details>
@@ -233,7 +234,7 @@ These apps also have a phone number look-up, so you can check if a number you're
 
 #### The Short
 
-Only contact a company through a form or phone number found directly on their website, and not submitted by a user (for example a Facebook post about Facebook's contact information). Don't search Google for a contact number for the company.
+Only contact a company through a form or phone number found directly on their website, and _not_ submitted by a user (for example don't use a number from a Facebook post about Facebook's contact information). Don't search Google for a contact number for the company.
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
@@ -241,7 +242,7 @@ Only contact a company through a form or phone number found directly on their we
 There are loads of phone numbers that come up as the #1 result on Google for a company's phone number that lead you right to someone trying to take your money. A lot of large online companies like Facebook / Yahoo don't have a phone number (or even a way to easily contact them).
 </p>
 <p>
-If you're unsure, put the number into Mr. Number's phone number look-up, or Google the phone number. If the number doesn't lead directly to a page on that company's website, it is probably fake.
+If you're unsure, put the number into Mr. Number's phone number look-up, or Google the phone number and see if others are reporting it as spam. If the number doesn't lead directly to a page on that company's website, it is probably fake.
 </p>
 </div>
 </details>
@@ -250,7 +251,7 @@ If you're unsure, put the number into Mr. Number's phone number look-up, or Goog
 
 #### The Short
 
-If you get an email from PayPal, don't click the link in the email. Instead, go to PayPal.com and login to see if they really need it. If you get a phone call from your "bank" or "Microsoft", hang up and call back using a number you trust, not one the caller provides.
+If you get an email from any company asking for more information, don't click the link in the email. Instead, go to the site yourself and login to see if they really need it. If you get a phone call from your "bank", "the IRS", or "Microsoft", hang up and call back using a number you trust, not one the caller provides.
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
@@ -265,7 +266,7 @@ This includes things like the IRS coming to arrest you for back taxes, Microsoft
 
 # Online Behavior
 
-Your behavior drives your risk of getting impacted by a scammer, virus, etc. When I was a kid, I always fell for the "too good to be true" scenarios trying to download free video games and ended up needing to reformat by computer often to clear out all the viruses. Fortunately that was before personal information and online transactions were done online, so there wasn't really much to lose but time. This probably happened 5-10 times when I was young, but once I learned and improved my behavior, I haven't been impacted by a virus/malware/scammer in the last 15 years. Now, your entire life is online, and you have much to lose.
+Your behavior drives your risk of getting impacted by a scammer, virus, etc. When I was a kid, I always fell for the "too good to be true" scenarios trying to download free video games and ended up needing to reformat by computer often to clear out my newly downloaded virus. Fortunately that was before I stored personal information on my computer and made online transactions, so there wasn't really much to lose. This happened 2 or 3 times when I was young, but once I learned and improved my behavior, I haven't been impacted by a virus/malware/scammer in the last 15 years. Now, your entire life is online, and you have much to lose.
 
 This isn't a comprehensive list, but in general you are usually responsible in some part for getting tricked by a scammer so start thinking like a criminal and be skeptical when something doesn't feel right or is "too good to be true".
 
@@ -273,7 +274,7 @@ This isn't a comprehensive list, but in general you are usually responsible in s
 
 #### The Short
 
-The website you are on might not be the website you think it is. Check the URL.
+The website you are on might not be the website you think it is. Check the URL that your browser is pointing to.
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
@@ -286,11 +287,11 @@ Ask yourself: how did I get to this website? Was it through a Google search, or 
 </div>
 </details>
 
-### 2. Don't put in SSN or credit card information on any site that is http://, make sure it is https://
+### 2. Don't put in social security number or credit card information on any site that is http:// - make sure it is https://
 
 #### The Short
 
-Look at the beginning of a URL before entering ANY financial or credit card data
+Look at the beginning of a URL before entering ANY financial or credit card data to make sure it starts with https://.
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
@@ -304,7 +305,7 @@ https:// encrypts your data over the wire so it is harder to compromise.
 
 #### The Short
 
-Treat everything as suspicious.
+Treat everything as suspicious. This goes for links in emails, on websites you trust (like in an ad), links in messages from friends on Facebook, etc.
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
@@ -318,7 +319,7 @@ If something pops up on your computer saying that a virus was found, that you ne
 On a computer, hover your mouse over a link and look at the bottom of your browser, it will tell you where the link goes. If the beginning of the URL shows a different URL than the one at the top of your browser (the site you're at), you are going to a link outside of the site.
 </p>
 <p>
-Advertising is the way most websites make money, and ad sectionson sites are everywhere. Although a lot of these advertised articles seem harmless, they have been known to lead to phishing sites that trick you into giving them your data or your money, or malicious sites that install something on your computer using an exploit so that they can steal your data later.
+Advertising is the way most websites make money, and ad sections on sites are everywhere. Although a lot of these advertised articles seem harmless, they have been known to lead to phishing sites that trick you into giving them your data or your money, or malicious sites that install something on your computer using an exploit so that they can steal your data later.
 </p>
 </div>
 </details>
@@ -331,7 +332,7 @@ Advertising is the way most websites make money, and ad sectionson sites are eve
 
 Buy a Cujo Network Security Device.
 
-If you have spotty WiFi, buy an eero Mesh WiFi system + subscribe to eero Plus for bonus security & subscriptions to 1Password, Malware Bytes, Encrypt.me .
+If you have spotty WiFi, buy an eero router and subscribe to eero Plus for bonus security & subscriptions to 1Password, Malwarebytes, and Encrypt.me.
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
@@ -339,22 +340,16 @@ If you have spotty WiFi, buy an eero Mesh WiFi system + subscribe to eero Plus f
 Your WiFi may not be secure, which is where you do all your online banking, put in your credit card information, etc.
 </p>
 <p>
-If your router has network security built in, enable it! There's a lot you can do here, this is a guide to a few of the items:
-</p>
-<p>
-https://www.computerhope.com/issues/ch001289.htm
+If your router has network security built in, enable it! Here is a guide to a few of the <a target="_blank" href="https://www.computerhope.com/issues/ch001289.htm">things you can do with your router's network security.</a>
 </p>
 <p>
 For example, if you have an Asus router, a lot of them ship with AiProtection but it may be turned off, so turn it on and get features like attack protection, malicious site blocking and infected device detection.
 </p>
 <p>
-Buy a network security device to protect your home WiFi.
+Buy a network security device to protect your home WiFi <a target="_blank" href="https://www.amazon.com/gp/product/B01MSEX7PT/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01MSEX7PT&linkCode=as2&tag=base11studios-20&linkId=c34687944ab7cc010fc8c860cff7ee64">like the Cujo.</a>
 </p>
 <p>
-[test](https://www.amazon.com/gp/product/B01MSEX7PT/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01MSEX7PT&linkCode=as2&tag=base11studios-20&linkId=c34687944ab7cc010fc8c860cff7ee64)CUJO AI Smart Internet Security Firewall (2nd Gen.)
-</p>
-<p>
-Disable WPS on your router: see this link: https://www.lifewire.com/disable-wps-on-router-4137379
+Disable WPS on your router. See this <a  target="_blank" href="https://www.lifewire.com/disable-wps-on-router-4137379">guide for a how-to</a>.
 </p>
 </div>
 </details>
@@ -363,13 +358,21 @@ Disable WPS on your router: see this link: https://www.lifewire.com/disable-wps-
 
 #### The Short
 
-Don't just use an old phone number. Treat it like any other password.
+Don't just use an old phone number for your WiFi password. Treat it like any other password.
+
+<details><summary>The Details</summary>
+<div class="details-highlight">
+<p>
+If a criminal is able to compromise your home network, they can monitor all of your traffic. If you like to keep it simple for guests to get on to when they come over, check if your router has a guest network. Your ISP can tell you if there is one and help get it setup.
+</p>
+</div>
+</details>
 
 ### 3. Don't connect to public WiFi networks without a VPN client
 
 #### The Short
 
-Buy a VPN service like NordVPN or Express VPN and install it on all your devices.
+Buy a VPN service like NordVPN or Express VPN and install it on all your devices (phones, computers, tablets).
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
@@ -377,7 +380,7 @@ Buy a VPN service like NordVPN or Express VPN and install it on all your devices
 Public WiFi spots get compromised, then a criminal can view the internet traffic on that WiFi network. This means they can see everything you're doing and everything you're typing into websites.
 </p>
 <p>
-Install a VPN client on all of your devices (phones, tablets, laptops) and set it up to auto-secure untrusted networks. When you connect to a public WiFi network, the VPN should automatically start encrypting your traffic, making it harder to see.
+Install a VPN client on all of your devices and set it up to auto-secure untrusted networks. When you connect to a public WiFi network, the VPN should automatically start encrypting your traffic, making it harder to see.
 </p>
 </div>
 </details>
@@ -388,7 +391,7 @@ Install a VPN client on all of your devices (phones, tablets, laptops) and set i
 
 #### The Short
 
-When your phone or computer OS prompts you to download and install an update, ensure it is really from your OS, and after confirming, do it!
+When your phone or computer operating system prompts you to download and install an update, ensure it is really from your OS, and after confirming, do it!
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
@@ -396,7 +399,7 @@ When your phone or computer OS prompts you to download and install an update, en
 If you're on an iPhone and see the red (1) on your settings app, it probably means you have an update ready.
 </p>
 <p>
-Equifax's 80 million+ user compromise of SSNs & personal information occurred because they didn't update their systems after a known vulnerability was exposed. 2 months after it was fixed, Equifax still hadn't updated, and then the data breach occurred.
+Equifax's 80 million+ user compromise of social security numbers & personal information occurred because they didn't update their systems after a known vulnerability was exposed. The exploit was found and fixed, then 2 months after it was fixed Equifax still hadn't updated and then the data breach occurred.
 </p>
 </div>
 </details>
@@ -407,31 +410,39 @@ Equifax's 80 million+ user compromise of SSNs & personal information occurred be
 
 Google frequently updates its database with known malicious sites and will stop you from going to them accidentally.
 
+<details><summary>The Details</summary>
+<div class="details-highlight">
+<p>
+Chrome is on the leading edge with security compared with Internet Explorer, Edge, Firefox, etc. They also auto update Chrome once installed, so you don't have to do anything to stay secure.
+</p>
+</div>
+</details>
+
 ### 3. Antivirus / Firewall Apps
 
 As I mention in the Behavior section, your behavior usually leads to your phone/computer getting compromised. If you work on your behavior, you shouldn't need anti-virus programs, but extra protection never hurts.
 
 #### The Short
 
-It depends on your OS, but make sure you have the device/computer password protected with a good password. If you think you could have been compromised, download Malware Bytes and Avast and run them.
+It depends on your OS, but make sure you have the device/computer password protected with a good password. If you think you could have been compromised, download Malwarebytes and Avast and run them (or run your own anti-virus / anti-malware programs).
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
 <p>
-This is super high level, but here are some general rules I try to stick to:
+Here are some general rules I use myself:
 </p>
 <ul>
 <li>Windows
 <ul>
 <li>
-Windows now comes with a firewall and Windows Defender which does a decent job protecting your desktop/laptop. Malwarebytes and Avast are great application to download and run when you think your computer may be compromised.
+Windows comes with a firewall and anti-virus (Windows Defender) which does a decent job protecting your desktop/laptop. Malwarebytes and Avast are great application to download and run when you think your computer may be compromised.
 </li>
 </ul>
 </li>
 <li>Mac
 <ul>
 <li>
-Make sure your user account has a decent password and that is usually enough. If you think your computer might be compromised, download Malware Bytes and running a scan.
+Make sure your user account has a decent password. If you think your computer might be compromised, download Malwarebytes and running a scan.
 </li>
 </ul>
 </li>
@@ -451,7 +462,7 @@ Don't download random apps you've never heard of. Sometimes malware gets onto th
 Put a password lock on your phone
 </li>
 <li>
-Try an app scanning program like Malware Bytes / Norton / etc, which scans websites you try to visit or apps you download from Google Play. Android is known to be looser with app approvals and infected apps slip into the store more than iOS.
+Try an app scanning program like Malwarebytes / Norton / etc, which scans websites you try to visit or apps you download from Google Play. Android is known to be looser with app approvals and infected apps slip into the store more than iOS.
 </li>
 </ul>
 </li>
@@ -465,12 +476,15 @@ Try an app scanning program like Malware Bytes / Norton / etc, which scans websi
 
 #### The Short
 
-Get a security system that you can install yourself. You will save thousands of dollars after reducing up front install costs/upcharges, unnecessary high monthly monitoring fees, and 2-3 year contracts you can't get out of. Check out WireCutter: https://thewirecutter.com/reviews/the-best-home-security-system/
+Get a security system that you can install yourself. You could save hundreds by reducing up front install costs/upcharges, unnecessary high monthly monitoring fees, and 2-3 year contracts you can't get out of.
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
 <p>
-"the ESA reported that 90 percent of convicted burglars avoid homes with alarm systems, and if they did encounter an alarm, they would abandon the attack" - https://www.angieslist.com/articles/do-security-signs-and-decals-stop-thieves.htm
+For the best DIY security systems, check out <a target="_blank" href="https://thewirecutter.com/reviews/the-best-home-security-system/">WireCutter's guide</a>.
+</p>
+<p>
+"The ESA reported that 90 percent of convicted burglars avoid homes with alarm systems, and if they did encounter an alarm, they would abandon the attack." - <a target="_blank" href="https://www.angieslist.com/articles/do-security-signs-and-decals-stop-thieves.htm">source</a>.
 </p>
 </div>
 </details>
@@ -479,7 +493,7 @@ Get a security system that you can install yourself. You will save thousands of 
 
 #### The Short
 
-I really like Arlo wireless cameras - they record videos when they detect motion,upload them to the cloud, and notify you on your phone so you can see what is happening when you're away.
+I really like Arlo wireless cameras - they record videos when they detect motion, upload them to the cloud, and notify you on your phone so you can see what is happening when you're away.
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
@@ -498,35 +512,32 @@ Your alarm system company probably offers security cameras too, but I found that
 
 #### The Short
 
-If you're going to use free services, you're paying for it somehow, and in many cases it is by giving them data about yourself so that they can sell ad space to marketers to sell you a product.
+If you're going to use free services, you're paying for it somehow, and in many cases it is by giving them data about your online activity and your interests so that their advertisers can sell you something.
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
 <p>
-Google, Facebook, Amazon, Microsoft, etc, etc, etc, are all selling your data between themselves and to other companies. The purpose of this is marketing, so that consumers of that data can get a better picture about what your interests and needs are and sell you a product that meets those. Some people get scared about this, but generally these companies aren't selling your data with your name attached, they're linking you by your accounts, IP addresses, advertising identifier (found on computer or phone).
+Google, Facebook, Amazon, Microsoft, etc, etc, etc, are all selling your data between themselves and to other companies. The purpose of this is marketing, so that consumers of that data can get a better picture about what your interests and needs are and sell you a product that meets those. Some people get scared about this, but generally these companies aren't selling your data with your name attached, they're linking you by your accounts, IP addresses, and advertising identifier.
 </p>
 <p>
-Before you get upset, remember: they are building a product for millions of dollars and giving it to you for free. You are "paying" for this application by letting them try to sell you products they think you want. Some of the coolest birthday gifts I've received came from my wife's Instagram account.
+Before you get upset, remember: they are building a product for millions of dollars and giving it to you for free. You are "paying" for this application by letting them try to sell you products they think you want. Personally I like this; some of the coolest birthday gifts I've received came from my wife's Instagram account.
 </p>
 <p>
 If you are concerned, there are ways to limit the amount of sharing done by these companies. On iOS and Android there are ways to block products from using your advertising identifier to track you across sites. You can disable these:
 <ul>
 <li>
-Google: https://support.google.com/ads/answer/2662922?hl=en
+<a target="_blank" href="https://support.google.com/ads/answer/2662922?hl=en">Google</a>
 </li>
 <li>
-iOS: https://www.imobie.com/support/how-to-limit-ad-tracking-on-iphone.htm
+<a target="_blank" href="https://www.imobie.com/support/how-to-limit-ad-tracking-on-iphone.htm">iOS</a>
 </li>
 <li>
-Android: https://android.gadgethacks.com/how-to/opt-out-ad-tracking-android-0181303/
+<a target="_blank" href="https://android.gadgethacks.com/how-to/opt-out-ad-tracking-android-0181303/">Android</a>
 </li>
 </ul>
 </p>
 <p>
 You can also use private browsing to limit an advertisers ability to track you. You can use Chrome and open "Incognito Tabs" which limit tracking.
-</p>
-<p>
-I don't mind these companies sharing my profile data for advertising purposes. As a developer, I make money on advertisements by giving my apps away for free and earning revenue on ad clicks. I don’t disable ad tracking for both of these reasons.
 </p>
 </div>
 </details>
