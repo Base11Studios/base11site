@@ -38,7 +38,7 @@ Most of these topics could be blog posts alone, and fortunately there are lots o
 
 #### The Short
 
-Check if your bank offers free credit report monitoring. If not, try CreditWise by Capital One. Set it up to alert you when there are changes to your score.
+Check if your bank offers free credit report monitoring. If not, try <a target="_blank" href="https://creditwise.capitalone.com/home">CreditWise by Capital One</a>. Set it up to alert you when there are changes to your score.
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
@@ -63,7 +63,10 @@ Your social security number and personal information is probably sitting on a cr
 Check if your social security number was compromised by the Equifax breach in 2017 <a target="_blank" href="https://www.equifaxsecurity2017.com/">here</a>. Over 80 million people were impacted, including myself and my wife, so chances are good yours was too. At this link, scroll down half way and click the red "Am I Impacted?" Button to see.
 </p>
 <p>
-It is a bit of a hassle to freeze your credit but I think its worth it. You can do it at each bureau's website in less than an hour. Once they're frozen and you want to apply for new credit, you will need to unfreeze it temporarily for a time period or for a specific lender for each bureau that the lender uses to check your credit report.
+It is a bit of a hassle to freeze your credit but I think its worth the security. You can do it at each bureau's website in less than an hour. Once they're frozen and you want to apply for new credit, you will need to unfreeze it temporarily for a time period or for a specific lender for each bureau that the lender uses to check your credit report.
+</p>
+<p>
+Here's <a target="_blank" href="https://www.nerdwallet.com/blog/finance/pros-and-cons-freezing-credit/">a good guide at NerdWallet on how to freeze it at each bureau</a>.
 </p>
 </div>
 </details>
@@ -77,7 +80,7 @@ If you freeze your credit, you don't need this. If you don't want to freeze your
 <details><summary>The Details</summary>
 <div class="details-highlight">
 <p>
-Here's <a target="_blank" href="https://www.nerdwallet.com/blog/finance/comparing-identity-theft-protection-services/">a great article by NerdWallet</a> discussing when you may want identity theft protection.
+More: <a target="_blank" href="https://www.nerdwallet.com/blog/finance/comparing-identity-theft-protection-services/">NerdWallet - Do You Need Identity Theft Protection Services?</a>
 </p>
 </div>
 </details>
@@ -100,12 +103,15 @@ No matter how careful you are with your credit card number, it's usually only a 
 
 #### The Short
 
-Let the criminals take the credit card company's money, not your money. Its easier to dispute, and protects your hard earned money.
+Let the criminals take the credit card company's money, not your money. Its easier to dispute, and protects your hard earned money. Also earn rewards!
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
 <p>
 If your credit card is compromised, the criminal is spending the credit card company's money. You never actually used your money for that transaction (unless you already paid it off). When a debit card is compromised, the criminal is using your money. It is a lot easier to dispute a credit card transaction versus getting your financial institution to refund your bank account.
+</p>
+<p>
+More: <a target="_blank" href="https://www.nerdwallet.com/blog/credit-cards/sean-talks-credit-use-credit-card-pay-just-everything/">NerdWallet - Use Your Credit Card</a>
 </p>
 </div>
 </details>
@@ -147,7 +153,7 @@ Password managers are great for creating strong, unique passwords. I love 1Passw
 
 #### The Short
 
-Subscribe to 1Password and use it to store passwords securely.
+<a target="_blank" href="https://1password.com/">Subscribe to 1Password</a> and use it to store passwords securely - download for iOS, Android, Mac, Windows!
 
 <details><summary>The Details</summary>
 <div class="details-highlight">
