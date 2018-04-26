@@ -1,15 +1,17 @@
 ---
-date: 2018-04-19
-title: Paranoid And Protected 
+date: 2018-04-26
+title: Online Security - Protecting Your Data, Identity and Credit in the Digital Age
 categories:
   - security
   - technology
   - personal information
   - credit
+  - identity
+  - data
 author_staff_member: dan
-featured_image: aws/cloudformation.png
+featured_image: dna-privacy.png
 image:
-  path: /images/aws/cloudformation.jpg
+  path: /images/dna-privacy.png
 permalink: protecting-your-data-credit-identity-online-security
 ---
 
@@ -66,7 +68,7 @@ Check if your social security number was compromised by the Equifax breach in 20
 It is a bit of a hassle to freeze your credit but I think its worth the security. You can do it at each bureau's website in less than an hour. Once they're frozen and you want to apply for new credit, you will need to unfreeze it temporarily for a time period or for a specific lender for each bureau that the lender uses to check your credit report.
 </p>
 <p>
-Here's <a target="_blank" href="https://www.nerdwallet.com/blog/finance/pros-and-cons-freezing-credit/">a good guide at NerdWallet on how to freeze it at each bureau</a>.
+More: <a target="_blank" href="https://www.nerdwallet.com/blog/finance/pros-and-cons-freezing-credit/">NerdWallet - How to freeze your credit at each bureau</a>.
 </p>
 </div>
 </details>
@@ -144,7 +146,7 @@ Brute force attacks can go through a dictionary and combine words to attempt to 
 <details><summary>The Details</summary>
 <div class="details-highlight">
 <p>
-Password managers are great for creating strong, unique passwords. I love 1Password's feature to generate a password by specifying the length, number of symbols, number of digits, etc. You can use 1Password Mini to generate a password as you're signing up for a new website on your laptop without skipping a beat!
+Password managers are great for creating strong, unique passwords. I love <a target="_blank" href="https://1password.com/">1Password</a>'s feature to generate a password by specifying the length, number of symbols, number of digits, etc. You can use 1Password Mini to generate a password as you're signing up for a new website on your laptop without skipping a beat!
 </p>
 </div>
 </details>
@@ -178,7 +180,10 @@ Delete your Yahoo email address and sign up for a Gmail account.
 <details><summary>The Details</summary>
 <div class="details-highlight">
 <p>
-Yahoo has had 3 massive hacks since 2013 and keeps losing personal data including passwords. Criminals can buy your login information and then go try it somewhere else. iMore has an article detailing <a target="_blank" href="https://www.imore.com/how-delete-your-yahoo-data-and-shut-down-your-account">how to delete your Yahoo account</a>.
+Yahoo has had 3 massive hacks since 2013 and keeps losing personal data including passwords. Criminals can buy your login information and then go try it somewhere else.
+</p>
+<p>
+More: <a target="_blank" href="https://www.imore.com/how-delete-your-yahoo-data-and-shut-down-your-account">iMore - How to Delete Your Yahoo Account</a>.
 </p>
 </div>
 </details>
@@ -193,6 +198,12 @@ Add a second "backup"/"recovery" email and a mobile phone number to each of your
 <div class="details-highlight">
 <p>
 Many email providers like Gmail allow you to provide a seconary email address and a phone number. These can be used to help you recover your account if it is compromised or if you forget your password. Email is the gateway to resetting your password at most sites, so this is important!
+</p>
+<p>
+More: <a target="_blank" href="https://support.google.com/plus/answer/183723?hl=en">Gmail - Setup a Recovery Email and Phone number</a>
+</p>
+<p>
+<a target="_blank" href="https://www.facebook.com/help/119897751441086?helpref=faq_content">Facebook - Setup Trusted Contacts</a>
 </p>
 </div>
 </details>
@@ -210,6 +221,12 @@ Passwords get stolen, add another layer of security by setting up 2FA on all imp
 </p>
 <p>
 This is really important for bank accounts and email accounts where a compromise can mean financial loss.
+</p>
+<p>
+More: <a target="_blank" href="https://www.theverge.com/2017/6/17/15772142/how-to-set-up-two-factor-authentication">The Verge - How to Setup Two Factor Authentication on All Your Accounts</a>
+</p>
+<p>
+Not covered above, go to all of your bank accounts, 401k accounts, etc and do the same.
 </p>
 </div>
 </details>
@@ -232,6 +249,12 @@ There are dozens of call blocker websites and they'll tell you if an incoming ca
 </p>
 <p>
 These apps also usually have a phone number look-up, so you can check if a number you're going to call has been reported by another user as fake.
+</p>
+<p>
+More: <a target="_blank" href="https://play.google.com/store/apps/details?id=com.mrnumber.blocker&hl=en_US">Mr Number - Android</a>
+</p>
+<p>
+<a target="_blank" href="https://itunes.apple.com/us/app/mr-number-call-block-lookup/id1047334922?mt=8">Mr Number - iOS</a>
 </p>
 </div>
 </details>
@@ -288,7 +311,7 @@ The website you are on might not be the website you think it is. Check the URL t
 Scammers are getting good at mimicking websites and tricking you to visit them then enter your information.
 </p>
 <p>
-Ask yourself: how did I get to this website? Was it through a Google search, or did a click a link on foxnews.com?
+Ask yourself: how did I get to this website? Was it through a Google search, or did a click a link on nbc.com?
 </p>
 </div>
 </details>
@@ -355,7 +378,7 @@ For example, if you have an Asus router, a lot of them ship with AiProtection bu
 Buy a network security device to protect your home WiFi <a target="_blank" href="https://www.amazon.com/gp/product/B01MSEX7PT/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01MSEX7PT&linkCode=as2&tag=base11studios-20&linkId=c34687944ab7cc010fc8c860cff7ee64">like the Cujo.</a>
 </p>
 <p>
-Disable WPS on your router. See this <a  target="_blank" href="https://www.lifewire.com/disable-wps-on-router-4137379">guide for a how-to</a>.
+More: <a target="_blank" href="https://www.lifewire.com/disable-wps-on-router-4137379">Lifewire - Disable WPS on Your Router Guide</a>.
 </p>
 </div>
 </details>
@@ -387,6 +410,9 @@ Public WiFi spots get compromised, then a criminal can view the internet traffic
 </p>
 <p>
 Install a VPN client on all of your devices and set it up to auto-secure untrusted networks. When you connect to a public WiFi network, the VPN should automatically start encrypting your traffic, making it harder to see.
+</p>
+<p>
+More: <a target="_blank" href="https://www.lifewire.com/reasons-to-use-a-vpn-for-private-web-browsing-2483583">Lifewire - 10 Reasons to Use a VPN</a>.
 </p>
 </div>
 </details>
@@ -420,6 +446,9 @@ Google frequently updates its database with known malicious sites and will stop 
 <div class="details-highlight">
 <p>
 Chrome is on the leading edge with security compared with Internet Explorer, Edge, Firefox, etc. They also auto update Chrome once installed, so you don't have to do anything to stay secure.
+</p>
+<p>
+More: <a target="_blank" href="https://www.google.com/chrome/">Download Google Chrome</a>.
 </p>
 </div>
 </details>
@@ -487,6 +516,7 @@ Get a security system that you can install yourself. You could save hundreds by 
 <details><summary>The Details</summary>
 <div class="details-highlight">
 <p>
+More:
 For the best DIY security systems, check out <a target="_blank" href="https://thewirecutter.com/reviews/the-best-home-security-system/">WireCutter's guide</a>.
 </p>
 <p>
