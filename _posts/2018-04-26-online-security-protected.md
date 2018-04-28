@@ -19,6 +19,8 @@ How do you protect your financial and personal information in the age of digital
 
 As a consumer, our online presence seems to grow daily with new user accounts, new content on social media sites, new search history, and new activities like online shopping. Criminals want your money or your identity and they keep getting more clever. There are literally warehouses full of people in India trying to take your money. That Nigerian prince that needs you to "deposit money for them" is probably really in Nigeria, but they are definitely not a prince. Taking your money is their job, and it's hard for our government to shut them down when they're in another country so the threats persist.
 
+![Too Much Data]({{ site.baseurl }}/images/stock/architecture-business-cabinet.jpg "Too Much Data"){:.center-block}
+
 Below are some things I recommend to secure your data, finances, and identity online. Some of these may sound like common sense, but you would be surprised - if the criminal catches you at the right time and you're not careful, you will unknowingly fall into their trap.
 
 Most of these topics could be blog posts alone, and fortunately there are lots of really nice blog posts out there already. I'll put reference links to some of the best articles for the points below. I'll cover a few different categories:
@@ -35,6 +37,8 @@ Most of these topics could be blog posts alone, and fortunately there are lots o
 \*Disclaimer – these are my opinions and ideas I have learned or researched, but there may be better ways or updates to these ideas. You may follow all of my recommendations and still become victim to theft, but I believe these steps will reduce your risk.
 
 # Protect Your Credit
+
+![Protect Your Credit]({{ site.baseurl }}/images/stock/credit-report.jpg "Protect Your Credit"){:.center-block}
 
 ### 1. Monitor your credit reports at least monthly
 
@@ -119,6 +123,8 @@ More: <a target="_blank" href="https://www.nerdwallet.com/blog/credit-cards/sean
 </details>
 
 # Passwords & Accounts
+
+![Settings]({{ site.baseurl }}/images/stock/settings.jpg "Settings"){:.center-block}
 
 ### 1. Use a different password for EVERY website you use. Yes, EVERY site.
 
@@ -233,6 +239,8 @@ Not covered above, go to all of your bank accounts, 401k accounts, etc and do th
 
 # Avoid Criminals
 
+![Phone]({{ site.baseurl }}/images/stock/phone.jpg "Phone"){:.center-block}
+
 ### 1. Install a call blocker app on your phone
 
 #### The Short
@@ -299,6 +307,8 @@ Your behavior drives your risk of getting impacted by a scammer, virus, etc. Whe
 
 This isn't a comprehensive list, but in general you are usually responsible in some part for getting tricked by a scammer so start thinking like a criminal and be skeptical when something doesn't feel right or is "too good to be true".
 
+![Url]({{ site.baseurl }}/images/stock/url.jpg "Url"){:.center-block}
+
 ### 1. Look at URLs of websites you're at before entering passwords or data
 
 #### The Short
@@ -354,6 +364,8 @@ Advertising is the way most websites make money, and ad sections on sites are ev
 </details>
 
 # WiFi
+
+![Router]({{ site.baseurl }}/images/stock/router.jpg "Router"){:.center-block}
 
 ### 1. Turn on Network Security on your router or Buy a Network Security Device
 
@@ -418,6 +430,8 @@ More: <a target="_blank" href="https://www.lifewire.com/reasons-to-use-a-vpn-for
 </details>
 
 # Computer / Phone Protection
+
+![Computer]({{ site.baseurl }}/images/stock/computer.jpg "Computer"){:.center-block}
 
 ### 1. Stay up to date on software!
 
@@ -507,6 +521,8 @@ Try an app scanning program like Malwarebytes / Norton / etc, which scans websit
 
 # Physical Home Security
 
+![Cameras]({{ site.baseurl }}/images/stock/cameras.jpg "Cameras"){:.center-block}
+
 ### 1. Get an alarm system
 
 #### The Short
@@ -543,6 +559,8 @@ Your alarm system company probably offers security cameras too, but I found that
 </details>
 
 # Personal Data & Online Activity
+
+![Facebook]({{ site.baseurl }}/images/stock/facebook.jpg "Facebook"){:.center-block}
 
 ### 1. Nothing is free, accept it!
 
