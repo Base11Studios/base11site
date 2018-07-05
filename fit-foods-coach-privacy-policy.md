@@ -1,0 +1,12 @@
+---
+title: Fit Foods Coach Privacy Policy
+heading: Fit Foods Coach Privacy Policy
+subtitle: Simple app, simple policy.
+---
+
+<section>
+	<div class="container">
+		<p>Fit Foods Coach does not collect any of your response data or store it off your device. All your data is stored locally on your phone.</p>
+		<p>Fit Foods Coach may track your usage of the application anonymously so	that we can improve the product. We will not attempt to identify you by name for any of our analytics.</p>
+	</div>
+</section>
