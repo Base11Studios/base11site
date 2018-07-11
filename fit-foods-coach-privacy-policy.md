@@ -6,7 +6,11 @@ subtitle: Simple app, simple policy.
 
 <section>
 	<div class="container">
-		<p>Fit Foods Coach does not collect any of your response data or store it off your device. All your data is stored locally on your phone.</p>
-		<p>Fit Foods Coach may track your usage of the application anonymously so	that we can improve the product. We will not attempt to identify you by name for any of our analytics.</p>
+		<h3>DATA COLLECTION</h3>
+		<p>Fit Foods Coach does not persist any substitution data to your device. Substitution calculations are done by an external service maintained by Fit Foods Coach and secured using SSL encryption.</p>
+	</div>
+	<div class="container">
+		<h3>USER IDENTITY</h3>
+		<p>Information about substitutions performed are transmitted to our servers anonymously. Any data collection we do is to understand use of the product to enhance it in the future. We will not try to identify you or sell any of your information.</p>
 	</div>
 </section>
