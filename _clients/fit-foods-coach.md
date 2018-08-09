@@ -22,11 +22,13 @@ Most foods are measured in grams, but we keep it easy for things like bread and 
 
 ## Screenshots
 
-![Daily Quotes]({{ site.baseurl }}/images/screens/present-sense/home.png)
-![Get your Stats]({{ site.baseurl }}/images/screens/present-sense/journey.png)
-![Choose your Experience]({{ site.baseurl }}/images/screens/present-sense/activities.png)
-![Lots of Experiences]({{ site.baseurl }}/images/screens/present-sense/activities2.png)
-![Do Mindful Experiences]({{ site.baseurl }}/images/screens/present-sense/activity.png)
+### Android
+
+![Daily Quotes]({{ site.baseurl }}/images/screens/fit-foods-coach/landing-screen.png)
+![Get your Stats]({{ site.baseurl }}/images/screens/fit-foods-coach/replace-screen.png)
+![Choose your Experience]({{ site.baseurl }}/images/screens/fit-foods-coach/amount-screen.png)
+![Lots of Experiences]({{ site.baseurl }}/images/screens/fit-foods-coach/results-screen.png)
+![Do Mindful Experiences]({{ site.baseurl }}/images/screens/fit-foods-coach/final-result-screen.png)
 {: class="screenshots"}
 
 ### Technologies Used
