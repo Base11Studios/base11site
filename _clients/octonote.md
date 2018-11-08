@@ -5,7 +5,7 @@ external_url:
 image_path: /images/clients/octonote-splash.png
 ---
 
-[![iOS Download]({{ site.baseurl }}/images/app-store-badge.svg)](https://itunes.apple.com/us/app/fuzzzy-white-noise-for-sleep/id1336284372?ls=1&mt=8){: class="app-store-badge"}
+[![iOS Download]({{ site.baseurl }}/images/app-store-badge.svg)](https://itunes.apple.com/us/app/octonote/id1433164731?ls=1&mt=8){: class="app-store-badge"}
 {:target="blank"}
 
 ## Write Quickly and Beautifully
