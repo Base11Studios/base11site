@@ -13,6 +13,8 @@ image:
   path: /images/octocats/inspectocat.jpg
 ---
 
+⚠️[There's a better way to do this!]({{site.baseur}}{% link _posts/2019-01-21-aws-cli-with-pyenv.md%})⚠️
+
 The doc for [installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-install-macos.html), if you don't have pip and choose to use python3, has one little trick to it.
 
 ## Installing AWS CLI with python3 on macOS
