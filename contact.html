@@ -1,7 +1,7 @@
 ---
 title: Contact
 heading: Get in touch today
-subtitle: We'd love to help your business.
+subtitle: Looking to leverage our skills and experience on your next idea?<br>Let's talk about partnership.
 map:
   latitude: 39.103496
   longitude: -84.512698
@@ -20,9 +20,11 @@ map:
 				<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 		</div>
 		<div>
-			<h3>Email</h3>
-			<p><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
-		</div>
+			<h3>Base11 Studios</h3>
+      <p><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
+      <h3>Support</h3>
+			<p><a href="mailto:{{ site.data.company.support_email_address }}">{{ site.data.company.support_email_address }}</a></p>
+    </div>
 	</div>
 </section>
 
