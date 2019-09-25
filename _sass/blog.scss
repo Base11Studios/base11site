@@ -61,13 +61,15 @@
 
     img {
       max-height: 500px;
-      box-shadow: 0px 3.5px 40px 3px #ddd;
       border-radius: 6px;
       margin-top: 30px;
       margin-bottom: 40px;
       display: block;
       margin-left: auto;
       margin-right: auto;
+      .shadow {
+        box-shadow: 0px 3.5px 40px 3px #ddd;
+      }
     }
 
     /*--------------
