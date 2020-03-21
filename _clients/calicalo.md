@@ -19,6 +19,7 @@ Monitor your daily and weekly calorie intake and output with this iPhone and App
 - Weekly Net Graphing: Get a view of your weekly progress with our new 7 Day Net Calories graph.
 - Track Your Weekly Trends: View your 7 day history, averages, and compare calories consumed versus burned
 - Set a daily target to make sure you're hitting your daily surplus or deficit
+- Edit the input sources used in the CaliCalo net-calories calculation inside the app
 
 ## Screenshots
 
