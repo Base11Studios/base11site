@@ -1,8 +1,8 @@
 title: Base11 Studios
 url: "https://base11studios.com"
 baseurl:
-google_analytics_key: UA-114651276-2
-google_maps_javascript_api_key: AIzaSyAvoy9lyc8Whs9RejsyHHzfWfv6aNao79k
+google_analytics_key: 
+google_maps_javascript_api_key: 
 disqus_shortname:
 
 # Default description in social shares for the jekyll-seo-tag gem
