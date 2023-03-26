@@ -37,12 +37,13 @@ jekyll-archives:
 markdown: kramdown
 highlighter: rouge
 
-gems:
+plugins:
   - "jekyll-feed"
   - "jekyll-seo-tag"
   - "jekyll-paginate"
   - "jekyll-archives"
   - "jekyll-sitemap"
+  - "kramdown-parser-gfm"
 
 redcarpet:
     extensions: ["fenced_code_blocks, no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
