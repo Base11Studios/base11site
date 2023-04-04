@@ -1,5 +1,5 @@
 ---
-date: 2023-04-04
+date: 2023-04-03
 title: Visualizing Data with Swift Charts
 categories:
   - iOS
