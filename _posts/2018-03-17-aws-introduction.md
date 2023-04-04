@@ -136,4 +136,4 @@ The [API Gateway](https://aws.amazon.com/api-gateway/) is the abstraction betwee
 
 Code! As I mentioned, the beauty of CodeStar is it gets you right to the fun part, writing code. Try adding another Lambda function and endpoint. Once you've got that down check out [DynamoDB](https://aws.amazon.com/dynamodb/) for some structureless persistance. I barely touched the surface of each component here. I'll take a deeper dive on some of them in later posts. As I said, the AWS docs are great so get to reading and building!
 
-[Tweet](https://twitter.com/rootbur) or [email](mailto:ryan@base11studios.com) me with questions or feedback on this post.
+[Tweet](https://twitter.com/ryankleindev) or [email](mailto:ryan@base11studios.com) me with questions or feedback on this post.
