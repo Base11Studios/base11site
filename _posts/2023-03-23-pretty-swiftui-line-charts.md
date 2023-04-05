@@ -24,7 +24,7 @@ With this screen, we want to communicate essential but pivotal data quickly. How
 
 By quickly scanning the graph, users can see how their lines overlap. Depending on their goals, this can help inform progress. 
 
-- For a user trying to maintain their weight, the goal may be to have the lines match up as closely as possible.
+- For a user trying to maintain weight, the goal may be to have the lines match up as closely as possible.
 - For a user trying to lose weight, they would be trying to consistently keep the 'Diet' line below the 'Burned' line. Opposite for the user trying to gain weight.
 
 For either user, the line graph can help identify large disparities or inconsistencies that can help guide behavior or tracking.
