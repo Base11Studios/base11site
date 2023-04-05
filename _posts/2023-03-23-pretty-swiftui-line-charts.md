@@ -31,7 +31,7 @@ For either user, the line graph can help identify significant disparities or inc
 
 ## Swift Charts
 
-Apple's [Swift Charts](https://developer.apple.com/documentation/charts) library offers a quicky and easy way to [start plotting data](https://developer.apple.com/documentation/charts/creating-a-chart-using-swift-charts). We'll use this library, along with SwiftUI, to build out our Trends chart.
+Apple's [Swift Charts](https://developer.apple.com/documentation/charts) library offers a quick and easy way to [start plotting data](https://developer.apple.com/documentation/charts/creating-a-chart-using-swift-charts). We'll use this library, along with SwiftUI, to build out our Trends chart.
 
 ### Brief Overview
 
