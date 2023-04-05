@@ -27,7 +27,7 @@ By quickly scanning the graph, users can see how their lines overlap. Depending 
 - For a user trying to maintain weight, the goal may be to have the lines match up as closely as possible.
 - A user trying to lose weight would be trying to consistently keep the 'Diet' line below the 'Burned' line. Opposite for the user trying to gain weight.
 
-For either user, the line graph can help identify large disparities or inconsistencies that can help guide behavior or tracking.
+For either user, the line graph can help identify significant disparities or inconsistencies that can help guide behavior or tracking.
 
 ## Swift Charts
 
