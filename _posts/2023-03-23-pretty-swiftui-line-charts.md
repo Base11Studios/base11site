@@ -22,7 +22,7 @@ Now, with [Swift Charts](https://developer.apple.com/documentation/charts) we ca
 
 With this screen, we want to communicate essential but pivotal data quickly. How have you been balancing your NET calories (calories consumed vs. calories burned) for the last seven days? We plot two lines - one for calories consumed (diet) and one for calories burned by daily totals.
 
-By quickly scanning the graph a user is able to see how their lines overlap. Depending on their goals, this can help inform progress. 
+By quickly scanning the graph, users can see how their lines overlap. Depending on their goals, this can help inform progress. 
 
 - For a user trying to maintain their weight, the goal may be to have the lines match up as closely as possible.
 - For a user trying to lose weight, they would be trying to consistently keep the 'Diet' line below the 'Burned' line. Opposite for the user trying to gain weight.
