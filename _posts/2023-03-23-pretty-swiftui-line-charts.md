@@ -208,7 +208,7 @@ With only that 1 line, we've got some nice [CaliCalo](https://base11studios.com/
 
 ### Modifiers by Example
 
-Now that we understand some of the basic building blocks of Swift Charts, let's take a look at a few more ways we can modify our chart style. In the end, we should have a chart that looks pretty close to what we've built for [CaliCalo](https://base11studios.com/clients/calicalo/).
+Now that we understand some of the basic building blocks of Swift Charts let's look at a few more ways to modify our chart style. Ultimately, we should have a chart that looks close to what we've built for [CaliCalo](https://base11studios.com/clients/calicalo/).
 
 #### **Chart** Modifiers
 
