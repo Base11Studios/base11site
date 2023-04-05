@@ -185,7 +185,7 @@ struct SimpleLineChartView: View {
 }
 ```
 
-Without any extra setup, we'll get a chart that looks like this.
+We'll get a chart that looks like this without any extra setup.
 
 ![basic line chart with 2 lines](/images/swift-charts/line-chart-3a.png)
 
