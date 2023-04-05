@@ -193,7 +193,7 @@ A line chart with 2 lines of 5 points each (using our `diet` array x2). We even 
 
 #### Add some *Style*
 
-The green and blue are just the default colors the API provides without us doing any extra work. If we want to add some of our own special branding sauce, we use another simple modifier. On the `Chart`, we can apply the [`.chartForegroundStyleScale(_:)`](https://developer.apple.com/documentation/charts/chartplotcontent/chartforegroundstylescale(_:)) modifier to define the colors we want to use for each of our data sets.
+Green and blue are just the API's default colors without us doing any extra work. If we want to add some of our special branding sauce, we use another simple modifier. On the `Chart`, we can apply the [`.chartForegroundStyleScale(_:)`](https://developer.apple.com/documentation/charts/chartplotcontent/chartforegroundstylescale(_:)) modifier to define the colors we want to use for each of our data sets.
 
 ```swift
 Chart {
