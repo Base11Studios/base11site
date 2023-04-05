@@ -274,7 +274,7 @@ With all of this combined, we can design a chart that very closely mirrors our [
 
 We also learned about the basic building blocks of Swift Charts, and how easily modifiers can be applied to make Charts our own.
 
-For the full source of this example, plus a more complex example that includes some randomized test-data-generation, check out our [Trends Chart Repo on GitHub](https://github.com/Base11Studios/trends-chart-demo).
+For the complete source of this example, plus a more complex example that includes some randomized test-data-generation, check out our [Trends Chart Repo on GitHub](https://github.com/Base11Studios/trends-chart-demo).
 
 <br>
 <hr>
