@@ -20,7 +20,7 @@ Now, with [Swift Charts](https://developer.apple.com/documentation/charts) we ca
 
 ![Trends screen of CaliCalo depicting a line graph displayed on iPhone](/images/swift-charts/calicalo-trends-screen-closeup.png)
 
-With this screen, we want to communicate some basic but pivotal data quickly. For the last 7 days - how have you been balancing your NET calories (calories consumed vs. calories burned)? We do that by plotting 2 lines - one for calories consumed (diet) and one for calories burned by daily totals.
+With this screen, we want to communicate essential but pivotal data quickly. How have you been balancing your NET calories (calories consumed vs. calories burned) for the last seven days? We plot two lines - one for calories consumed (diet) and one for calories burned by daily totals.
 
 By quickly scanning the graph a user is able to see how their lines overlap. Depending on their goals, this can help inform progress. 
 
