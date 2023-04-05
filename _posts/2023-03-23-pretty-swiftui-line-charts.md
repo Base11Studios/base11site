@@ -35,7 +35,7 @@ Apple's [Swift Charts](https://developer.apple.com/documentation/charts) library
 
 ### Brief Overview
 
-A quick explainer of Swift Charts in the world of SwiftUI. Basically, you have a `Chart` view that takes a body that should be a list of 'marks'. Marks can be things like [`BarMark`](https://developer.apple.com/documentation/charts/barmark), [`LineMark`](https://developer.apple.com/documentation/charts/linemark), or [`PointMark`](https://developer.apple.com/documentation/charts/pointmark) that plot out the data depending on the type of chart you're making.
+A quick explainer of Swift Charts in the world of SwiftUI. You have a `Chart` view that takes a body that should be a list of 'marks.' Marks can be things like [`BarMark`](https://developer.apple.com/documentation/charts/barmark), [`LineMark`](https://developer.apple.com/documentation/charts/linemark), or [`PointMark`](https://developer.apple.com/documentation/charts/pointmark) that plot out the data depending on the type of chart you're making.
 
 Add to this `Chart` (and its marks) some modifier functions that allow us to modify how our data dimensions are displayed & styled, and we have ourselves a pretty chart showing data at a glance.
 
