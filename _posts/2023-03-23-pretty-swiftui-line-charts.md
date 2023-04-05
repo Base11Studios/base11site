@@ -232,7 +232,7 @@ We can apply some additional modifiers to the `LineMark`s to improve the overall
 
 #### Modifiers Combined
 
-Here's how those modifiers are all provided to the Chart and Marks to make the last chart example.
+Here's how those modifiers are provided to the Chart and Marks to make the last chart example.
 
 ```swift
 //...
