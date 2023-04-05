@@ -16,7 +16,7 @@ Software UI development is often about visualizing the data available on our dev
 
 ![3 charts displaying random data](/images/swift-charts/swift-charts.png)
 
-Now, with [Swift Charts](https://developer.apple.com/documentation/charts) we can make that a reality in our apps easier than ever. Take for example, a basic Line Chart like the one used in [CaliCalo](https://base11studios.com/clients/calicalo/) to display a user's Diet vs. Active calorie count over 7 days.
+Now, with [Swift Charts](https://developer.apple.com/documentation/charts) we can make that a reality in our apps more accessible than ever. Take, for example, a basic Line Chart like the one used in [CaliCalo](https://base11studios.com/clients/calicalo/) to display a user's Diet vs. Active calorie count over seven days.
 
 ![Trends screen of CaliCalo depicting a line graph displayed on iPhone](/images/swift-charts/calicalo-trends-screen-closeup.png)
 
