@@ -189,7 +189,7 @@ We'll get a chart that looks like this without any extra setup.
 
 ![basic line chart with 2 lines](/images/swift-charts/line-chart-3a.png)
 
-A line chart with 2 lines of 5 points each (using our `diet` array x2). We even have a cute little legend at the bottom left indicating what the lines mean by color.
+A line chart with two lines of five points each (using our `diet` array x2). We even have a cute little legend at the bottom left indicating what the lines mean by color.
 
 #### Add some *Style*
 
