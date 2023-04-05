@@ -41,7 +41,7 @@ Add to this `Chart` (and its marks) some modifier functions that allow us to dec
 
 ### Make a Mark
 
-Let's look at an extremely simple example. Here, we're charting calories-per-day using some brute force. Let's just create a `Chart` with some `LineMark`s.
+Let's look at a straightforward example. Here, we're charting calories per day using some brute force. Let's create a `Chart` with some `LineMark`s.
 
 ```swift
 import SwiftUI
