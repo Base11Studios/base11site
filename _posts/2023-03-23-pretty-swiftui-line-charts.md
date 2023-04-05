@@ -69,7 +69,7 @@ struct SimpleLineChartView: View {
 }
 ```
 
-The code above results in a simple utilitarian looking chart that plots our 3 points on a line.
+The code above results in a simple, practical-looking chart that plots our 3 points on a line.
 
 ![basic line chart with 3 points](/images/swift-charts/line-chart-1a.png)
 
