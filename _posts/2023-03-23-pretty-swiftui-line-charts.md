@@ -266,7 +266,7 @@ Chart {
 
 ### Wrapping Up 🎁
 
-With all of this combined, we can design a chart that very closely mirrors our [CaliCalo](https://base11studios.com/clients/calicalo/) Trends UI. 
+Combined, we can design a chart that closely mirrors our [CaliCalo](https://base11studios.com/clients/calicalo/) Trends UI. 
 
 |Our Example|Trends UI|
 |:---:|:---:|
