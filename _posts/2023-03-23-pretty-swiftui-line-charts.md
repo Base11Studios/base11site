@@ -73,7 +73,7 @@ The code above results in a simple, practical-looking chart that plots our 3 poi
 
 ![basic line chart with 3 points](/images/swift-charts/line-chart-1a.png)
 
-Cool to see some data visualized! Let's look at a slightly more complicated example, where we map 2 lines. This time, we're plotting the 2 types of calories we care about in [CaliCalo](https://base11studios.com/clients/calicalo/) - Diet and Burned. To do this, we need to plot 2 points for every day.
+Cool to see some data visualized! Let's look at a slightly more complicated example, where we map two lines. This time, we're plotting the two types of calories we care about in [CaliCalo](https://base11studios.com/clients/calicalo/) - Diet and Burned. To do this, we need to plot 2 points for every day.
 
 If we were to just add a bunch of points (manually like we do in our example above or by looping over some data) we'll end up with a chart that looks something like what you see below. One long continuous line on the chart zigging back and forth.
 
