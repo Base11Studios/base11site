@@ -164,7 +164,7 @@ let diet: [Diet] = [
 
 > In the following snippet, we'll use this same list twice to map two lines, but in a real example, we would have two separate lists of test data that we would chart in the next step.
 
-Using this list of data, we can now chart 2 lines. We'll use the [`foregroundStyle(by:)`](https://developer.apple.com/documentation/charts/chartcontent/foregroundstyle(by:)) function to define each `LineMark`'s style for each item in the list. It's basically a way of indicating how to display a given mark.
+Using this list of data, we can now chart two lines. We'll use the [`foregroundStyle(by:)`](https://developer.apple.com/documentation/charts/chartcontent/foregroundstyle(by:)) function to define each `LineMark`'s style for each item in the list. It's a way of indicating how to display a given mark.
 
 ```swift
 struct SimpleLineChartView: View {
