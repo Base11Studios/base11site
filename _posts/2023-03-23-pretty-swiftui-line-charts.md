@@ -12,7 +12,7 @@ image:
   path: images/swift-charts/swift-charts.png
 ---
 
-Software UI development is so often about visualizing the plethora of data we constantly have available on our devices. A simple chart can communicate so much at a quick glance.
+Software UI development is often about visualizing the data available on our devices. A simple chart can communicate so much at a glance.
 
 ![3 charts displaying random data](/images/swift-charts/swift-charts.png)
 
