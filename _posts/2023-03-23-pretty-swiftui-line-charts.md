@@ -79,7 +79,7 @@ If we were to add a bunch of points (manually like in our example above or by lo
 
 ![basic line chart with 14 points](/images/swift-charts/line-chart-2a.png)
 
-Technically, all the data has been charted, but visually we aren't differentiating between the type of data supplied to the `Chart`. Let's do that next.
+Technically, all the data has been charted, but visually we aren't differentiating between the type of data supplied to the `Chart`. I think we should do that next.
 
 ### Add a Modifier
 
