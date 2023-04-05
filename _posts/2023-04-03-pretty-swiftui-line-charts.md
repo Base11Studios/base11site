@@ -12,36 +12,36 @@ image:
   path: images/swift-charts/swift-charts.png
 ---
 
-Software UI development is so often about visualizing the plethora of data we constantly have available on our devices. A simple chart can communicate so much at a quick glance.
+Software UI development is often about visualizing the data available on our devices. A simple chart can communicate so much at a glance.
 
 ![3 charts displaying random data](/images/swift-charts/swift-charts.png)
 
-Now, with [Swift Charts](https://developer.apple.com/documentation/charts) we can make that a reality in our apps easier than ever. Take for example, a basic Line Chart like the one used in [CaliCalo](https://base11studios.com/clients/calicalo/) to display a user's Diet vs. Active calorie count over 7 days.
+Now, with [Swift Charts](https://developer.apple.com/documentation/charts) we can make that a reality in our apps more accessible than ever. Take, for example, a basic Line Chart like the one used in [CaliCalo](https://base11studios.com/clients/calicalo/) to display a user's Diet vs. Active calorie count over seven days.
 
 ![Trends screen of CaliCalo depicting a line graph displayed on iPhone](/images/swift-charts/calicalo-trends-screen-closeup.png)
 
-With this screen, we want to communicate some basic but pivotal data quickly. For the last 7 days - how have you been balancing your NET calories (calories consumed vs. calories burned)? We do that by plotting 2 lines - one for calories consumed (diet) and one for calories burned by daily totals.
+With this screen, we want to communicate essential but pivotal data quickly. How have you been balancing your NET calories (calories consumed vs. calories burned) for the last seven days? We plot two lines - one for calories consumed (diet) and one for calories burned by daily totals.
 
-By quickly scanning the graph a user is able to see how their lines overlap. Depending on their goals, this can help inform progress. 
+By quickly scanning the graph, users can see how their lines overlap. Depending on their goals, this can help inform progress. 
 
-- For a user trying to maintain their weight, the goal may be to have the lines match up as closely as possible.
-- For a user trying to lose weight, they would be trying to consistently keep the 'Diet' line below the 'Burned' line. Opposite for the user trying to gain weight.
+- For a user trying to maintain weight, the goal may be to have the lines match up as closely as possible.
+- A user trying to lose weight would be trying to consistently keep the 'Diet' line below the 'Burned' line. Opposite for the user trying to gain weight.
 
-For either user, the line graph can help identify large disparities or inconsistencies that can help guide behavior or tracking.
+For either user, the line graph can help identify significant disparities or inconsistencies that can help guide behavior or tracking.
 
 ## Swift Charts
 
-Apple's [Swift Charts](https://developer.apple.com/documentation/charts) library offers a quicky and easy way to [start plotting data](https://developer.apple.com/documentation/charts/creating-a-chart-using-swift-charts). We'll use this library, along with SwiftUI, to build out our Trends chart.
+Apple's [Swift Charts](https://developer.apple.com/documentation/charts) library offers a quick and easy way to [start plotting data](https://developer.apple.com/documentation/charts/creating-a-chart-using-swift-charts). We'll use this library, along with SwiftUI, to build out our Trends chart.
 
 ### Brief Overview
 
-A quick explainer of Swift Charts in the world of SwiftUI. Basically, you have a `Chart` view that takes a body that should be a list of 'marks'. Marks can be things like [`BarMark`](https://developer.apple.com/documentation/charts/barmark), [`LineMark`](https://developer.apple.com/documentation/charts/linemark), or [`PointMark`](https://developer.apple.com/documentation/charts/pointmark) that plot out the data depending on the type of chart you're making.
+A quick explainer of Swift Charts in the world of SwiftUI. You have a `Chart` view that takes a body that should be a list of 'marks.' Marks can be things like [`BarMark`](https://developer.apple.com/documentation/charts/barmark), [`LineMark`](https://developer.apple.com/documentation/charts/linemark), or [`PointMark`](https://developer.apple.com/documentation/charts/pointmark) that plot out the data depending on the type of chart you're making.
 
-Add to this `Chart` (and its marks) some modifier functions that allow us to modify how our data dimensions are displayed & styled, and we have ourselves a pretty chart showing data at a glance.
+Add to this `Chart` (and its marks) some modifier functions that allow us to declare how our data dimensions are displayed & styled, and we have a pretty chart showing data at a glance.
 
 ### Make a Mark
 
-Let's look at an extremely simple example. Here, we're charting calories-per-day using some brute force. Let's just create a `Chart` with some `LineMark`s.
+Let's look at a straightforward example. Here, we're charting calories per day using some brute force. Let's create a `Chart` with some `LineMark`s.
 
 ```swift
 import SwiftUI
@@ -69,17 +69,17 @@ struct SimpleLineChartView: View {
 }
 ```
 
-The code above results in a simple utilitarian looking chart that plots our 3 points on a line.
+The code above results in a simple, practical-looking chart that plots our 3 points on a line.
 
 ![basic line chart with 3 points](/images/swift-charts/line-chart-1a.png)
 
-Cool to see some data visualized! Let's look at a slightly more complicated example, where we map 2 lines. This time, we're plotting the 2 types of calories we care about in [CaliCalo](https://base11studios.com/clients/calicalo/) - Diet and Burned. To do this, we need to plot 2 points for every day.
+Cool to see some data visualized! Let's look at a slightly more complicated example, where we map two lines. This time, we're plotting the two types of calories we care about in [CaliCalo](https://base11studios.com/clients/calicalo/) - Diet and Burned. To do this, we need to plot 2 points for every day.
 
-If we were to just add a bunch of points (manually like we do in our example above or by looping over some data) we'll end up with a chart that looks something like what you see below. One long continuous line on the chart zigging back and forth.
+If we were to add a bunch of points (manually like in our example above or by looping over some data), we'd end up with a chart that looks something like what you see below—one long continuous line on the chart zigging back and forth.
 
 ![basic line chart with 14 points](/images/swift-charts/line-chart-2a.png)
 
-Technically, all the data has been charted, but visually we aren't differentiating between the type of data supplied to the `Chart`. Let's do that next.
+Technically, all the data has been charted, but visually we aren't differentiating between the type of data supplied to the `Chart`. I think we should do that next.
 
 ### Add a Modifier
 
@@ -162,9 +162,9 @@ let diet: [Diet] = [
 ]
 ```
 
-> In the next snippet we'll use this same list twice to map 2 lines, but in a real example we would probably have 2 separate lists of test data that we would chart in the next step.
+> In the following snippet, we'll use this same list twice to map two lines, but in a real example, we would have two separate lists of test data that we would chart in the next step.
 
-Using this list of data, we can now chart 2 lines. We'll use the [`foregroundStyle(by:)`](https://developer.apple.com/documentation/charts/chartcontent/foregroundstyle(by:)) function to define each `LineMark`'s style for each item in the list. It's basically a way of indicating how to display a given mark.
+Using this list of data, we can now chart two lines. We'll use the [`foregroundStyle(by:)`](https://developer.apple.com/documentation/charts/chartcontent/foregroundstyle(by:)) function to define each `LineMark`'s style for each item in the list. It's a way of indicating how to display a given mark.
 
 ```swift
 struct SimpleLineChartView: View {
@@ -185,7 +185,7 @@ struct SimpleLineChartView: View {
 }
 ```
 
-Without any extra setup, we'll get a chart that looks like this.
+We'll get a chart that looks like this without any extra setup.
 
 ![basic line chart with 2 lines](/images/swift-charts/line-chart-3a.png)
 
@@ -193,7 +193,7 @@ A line chart with 2 lines of 5 points each (using our `diet` array x2). We even 
 
 #### Add some *Style*
 
-The green and blue are just the default colors the API provides without us doing any extra work. If we want to add some of our own special branding sauce, we use another simple modifier. On the `Chart`, we can apply the [`.chartForegroundStyleScale(_:)`](https://developer.apple.com/documentation/charts/chartplotcontent/chartforegroundstylescale(_:)) modifier to define the colors we want to use for each of our data sets.
+Green and blue are just the API's default colors without us doing any extra work. If we want to add some of our special branding sauce, we use another simple modifier. On the `Chart`, we can apply the [`.chartForegroundStyleScale(_:)`](https://developer.apple.com/documentation/charts/chartplotcontent/chartforegroundstylescale(_:)) modifier to define the colors we want to use for each of our data sets.
 
 ```swift
 Chart {
@@ -208,7 +208,7 @@ With only that 1 line, we've got some nice [CaliCalo](https://base11studios.com/
 
 ### Modifiers by Example
 
-Now that we understand some of the basic building blocks of Swift Charts, let's take a look at a few more ways we can modify our chart style. In the end, we should have a chart that looks pretty close to what we've built for [CaliCalo](https://base11studios.com/clients/calicalo/).
+Now that we understand some of the basic building blocks of Swift Charts let's look at a few more ways to modify our chart style. Ultimately, we should have a chart that looks close to what we've built for [CaliCalo](https://base11studios.com/clients/calicalo/).
 
 #### **Chart** Modifiers
 
@@ -232,7 +232,7 @@ We can apply some additional modifiers to the `LineMark`s to improve the overall
 
 #### Modifiers Combined
 
-Here's how those modifiers are all provided to the Chart and Marks to make the last chart example.
+Here's how those modifiers are provided to the Chart and Marks to make the last chart example.
 
 ```swift
 //...
@@ -266,15 +266,15 @@ Chart {
 
 ### Wrapping Up 🎁
 
-With all of this combined, we can design a chart that very closely mirrors our [CaliCalo](https://base11studios.com/clients/calicalo/) Trends UI. 
+Combined, we can design a chart that closely mirrors our [CaliCalo](https://base11studios.com/clients/calicalo/) Trends UI. 
 
 |Our Example|Trends UI|
 |:---:|:---:|
 |![line chart with square and circle marks](/images/swift-charts/line-chart-6b.png)|![trends line chart](/images/swift-charts/line-chart-7a.png)|
 
-We also learned about the basic building blocks of Swift Charts, and how easily modifiers can be applied to make Charts our own.
+We also learned about the basic building blocks of Swift Charts and how easily modifiers can be applied to make Charts our own.
 
-For the full source of this example, plus a more complex example that includes some randomized test-data-generation, check out our [Trends Chart Repo on GitHub](https://github.com/Base11Studios/trends-chart-demo).
+For the complete source of this example, plus a more complex example that includes some randomized test-data-generation, check out our [Trends Chart Repo on GitHub](https://github.com/Base11Studios/trends-chart-demo).
 
 <br>
 <hr>
