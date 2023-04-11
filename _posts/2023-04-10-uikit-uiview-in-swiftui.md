@@ -48,7 +48,7 @@ struct WebView: View {
 
 The *SwiftUIAdapter* suffix can be used to identify any Swift UI views that wrap a `UIView`.
 
-These adapters implement [UIViewRepresentable](https://developer.apple.com/documentation/swiftui/uiviewrepresentable). `UIViewRepresentable` has two functions requiring implementation. SwiftUI calls `makeUIView` when it creates a view. SwiftUI calls`updateUIView` when it updates the view.
+These adapters implement [UIViewRepresentable](https://developer.apple.com/documentation/swiftui/uiviewrepresentable){:target="_blank"}. `UIViewRepresentable` has two functions requiring implementation. SwiftUI calls `makeUIView` when it creates a view. SwiftUI calls `updateUIView` when it updates the view.
 
 The `makeCoordinator` function returns a `Coordinator`. A `Coordinator` instance is of an `associatedtype` that allows communication between SwiftUI and UIKit.
 
