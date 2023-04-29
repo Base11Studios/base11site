@@ -31,7 +31,7 @@ Select a device you'd like to create an Emulator of, **making sure to select one
 
 ![selecting play store enabled device screen shot](/images/talkback/select-play-store-device.png)
 
-After selecing the appropriate hardware, click Next.
+After selecting the appropriate hardware, click Next.
 
 ### System Image
 
