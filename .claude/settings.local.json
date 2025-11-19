@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:cavemend.com)",
+      "Bash(bundle exec jekyll:*)",
+      "WebFetch(domain:apps.apple.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
