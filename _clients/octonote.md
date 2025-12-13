@@ -38,13 +38,14 @@ Gists have robust support for code snippets and syntax highlighting. OctoNote fu
 
 OctoNote has a generous free tier, which is likely all you'll ever need for casual note taking.  But, if you want to use OctoNote to author or edit **secret** OctoNotes (notes not available through GitHub searches or search engines), you can upgrade to OctoNote Premium.
 
-Premium also includes the ability to customize your editor theme by choosing from one of eleven different color themes!
+Premium also includes the ability to customize the syntax highlighting theme and inline code styles.
 
-Premium will offer support for creating or editing unlimited secret OctoNotes in addition to the free tier support for public OctoNotes.
+Premium will offer support for creating or editing unlimited _secret_ OctoNotes in addition to the free tier support for public OctoNotes.
 
 **More to come!** OctoNote will continuously bring features to subscribers to Premium.  Some examples of things in the works:
 
-* Additional editor themes
+* Additional syntax themes
 * Enhanced markdown editor features in the ribbon
-* Customizable app icons
+* UI for reviewing history
+* Organizing gists
 * Suggestions from you! [aj@base11studios.com](mailto:aj@base11studios.com)
