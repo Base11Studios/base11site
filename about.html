@@ -8,7 +8,8 @@ subtitle: Our team at Base11 includes specialists in mobile apps, responsive web
 	<div class="container">
 	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong>Manage Staff members</a></p>
 		<ul class="image-grid-plain">
-			{% for member in site.staff_members %}
+			{% assign sorted_members = site.staff_members | sort: 'order' %}
+			{% for member in sorted_members %}
 				<li>
 					<a href="{{ member.personal_site }}">
 						<img src="{{ member.image_path }}" alt="{{ member.name }}"
