@@ -1,16 +1,17 @@
 ---
-name: Present Sense
+name: Presmo
 subtitle: Therapy tools for anxiety, panic, overthinking, and the hard moments.
 external_url:
 image_path: /images/clients/present-sense.png
+hidden: true
 ---
 
 [![iOS Download]({{ site.baseurl }}/images/app-store-badge.svg)](https://apps.apple.com/app/id1390285501){:target="_blank"}
 {:.app-store-badge}
 
-Present Sense turns a hard feeling into a tool that helps, right now, and over time tells you what actually works for you. When anxiety spikes, the mind races, or the night will not quiet down, you open the app, name how you feel, and within a couple of taps you are doing something that helps. No account, no setup, no scrolling a feed.
+Presmo turns a hard feeling into a tool that helps, right now, and over time tells you what actually works for you. When anxiety spikes, the mind races, or the night will not quiet down, you open the app, name how you feel, and within a couple of taps you are doing something that helps. No account, no setup, no scrolling a feed.
 
-It is a skills app, not a mood tracker. Every exercise is a real, evidence-based intervention drawn from CBT, DBT, ACT, EMDR, and somatic and grounding traditions, picked to match the feeling you are in. After each one, Present Sense quietly asks whether it helped, and uses your answers to learn which tools work best for you, for which feelings, at which times.
+It is a skills app, not a mood tracker. Every exercise is a real, evidence-based intervention drawn from CBT, DBT, ACT, EMDR, and somatic and grounding traditions, picked to match the feeling you are in. After each one, Presmo quietly asks whether it helped, and uses your answers to learn which tools work best for you, for which feelings, at which times.
 
 Most sessions take ninety seconds. The tools are short on purpose: grounding, breathwork, reframing, and regulation for the acute moment, not a twenty-minute meditation you have to schedule. On the calmer days, a daily practice of intentions, gratitude, and reflection keeps the toolbox familiar for the next time you need it.
 
@@ -35,7 +36,7 @@ Most sessions take ninety seconds. The tools are short on purpose: grounding, br
 
 ## Who it is for
 
-For the overstimulated parent who needs sixty seconds to reset. For the anxious overachiever whose brain will not turn off. For the OCD sufferer in between therapy sessions. For the meditation dropout who needs real tools, not timers. Present Sense is not an AI chatbot, not a streak-driven meditation app, and not a mood journal. It is the thing you reach for when something is hard, and a quiet record of what helped when you did.
+For the overstimulated parent who needs sixty seconds to reset. For the anxious overachiever whose brain will not turn off. For the OCD sufferer in between therapy sessions. For the meditation dropout who needs real tools, not timers. Presmo is not an AI chatbot, not a streak-driven meditation app, and not a mood journal. It is the thing you reach for when something is hard, and a quiet record of what helped when you did.
 
 ### Technologies Used
 

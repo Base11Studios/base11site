@@ -31,7 +31,6 @@ Begin with the moon you were born under, set an intention you want to tend, and 
 ![Follow every phase]({{ site.baseurl }}/images/screens/moon-ritual/03-calendar.png)
 ![Begin with your birth moon]({{ site.baseurl }}/images/screens/moon-ritual/05-birthmoon.png)
 ![Every full moon, a letter]({{ site.baseurl }}/images/screens/moon-ritual/07-letter.png)
-![Keep an altar of what you have grown]({{ site.baseurl }}/images/screens/moon-ritual/08-altar.png)
 {: class="screenshots"}
 
 ### Technologies Used

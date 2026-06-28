@@ -8,7 +8,7 @@ subtitle: We specialize in building great experiences. From native iOS and Andro
 	<div class="container">
 	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_clients/" class="btn"><strong>&#9998;</strong> Manage Clients</a></p>
 		<ul class="image-grid-floating">
-			{% for client in site.clients %}
+			{% for client in site.clients %}{% unless client.hidden %}
 				<li>
 					<a href="{{ site.baseurl }}{{ client.url }}">
 						<img src="{% include relative-src.html src=client.image_path %}" alt="{{ person.name }}"
@@ -25,7 +25,7 @@ subtitle: We specialize in building great experiences. From native iOS and Andro
 						</div>
 					</a>
 				</li>
-			{% endfor %}
+				{% endunless %}{% endfor %}
 			<li class="filler"></li>
 			<li class="filler"></li>
 		</ul>
